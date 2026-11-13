@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0B1D3A">
+  <title>Piyasa Paneli</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="bg" aria-hidden="true"><svg id="bgNet"></svg></div>
+
+  <aside class="sidebar" id="sidebar">
+    <div class="brand">
+      <span class="brand-mark">◆</span>
+      <div>
+        <div class="brand-name">Piyasa Paneli</div>
+        <div class="brand-sub">Kişisel finans terminali</div>
+      </div>
+    </div>
+    <nav class="nav" id="nav">
+      <a href="#ozet" data-view="ozet"><span class="ic">◧</span>Günlük Özet</a>
+      <a href="#izleme" data-view="izleme"><span class="ic">◉</span>İzleme Listesi</a>
+      <a href="#haberler" data-view="haberler"><span class="ic">≡</span>Haberler</a>
+      <a href="#portfoy" data-view="portfoy"><span class="ic">₺</span>Portföyüm</a>
+      <a href="#takvim" data-view="takvim"><span class="ic">▦</span>Ekonomik Takvim</a>
+      <a href="#notlar" data-view="notlar"><span class="ic">✎</span>Notlarım</a>
+      <a href="#ayarlar" data-view="ayarlar" class="nav-bottom"><span class="ic">⚙</span>Ayarlar</a>
+    </nav>
+    <div class="side-foot">
+      <div class="conn"><span class="dot" id="dotBinance"></span>Kripto · döviz · altın</div>
+      <div class="conn"><span class="dot" id="dotFinnhub"></span>ABD hisseleri</div>
+      <div class="upd" id="updLabel">Günlük veri: —</div>
+    </div>
+  </aside>
+  <div class="scrim" id="scrim"></div>
+
+  <main class="main">
+    <header class="topbar">
+      <button class="menu-btn" id="menuBtn" aria-label="Menüyü aç">☰</button>
+      <h1 id="viewTitle">Günlük Özet</h1>
+      <div class="clock" id="clock"></div>
+    </header>
+    <section class="view" id="view"></section>
+  </main>
+
+  <div class="toast" id="toast"></div>
+  <script src="app.js"></script>
+</body>
+</html>

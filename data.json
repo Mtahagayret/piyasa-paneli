@@ -1,0 +1,92 @@
+{
+  "updated": "2026-11-13T18:30:00+03:00",
+  "updatedLabel": "13 Kasım 2026, 18:30",
+  "summary": {
+    "headline": "Nvidia'da Huang dönemi kapandı, Borsa İstanbul haftayı %3 kazançla bitirdi",
+    "text": "ABD'de Perşembe günü üç endeks de yaklaşık %0,4 geriledi. Jensen Huang'ın Nvidia CEO'luğundan istifası, Fed'in Aralık'ta faiz artırabileceği beklentisi ve İran kaynaklı petrol yükselişi aynı gün fiyatlandı. Haftanın genel hikâyesi ise AI hisselerinde sert dalgalanma oldu: Nasdaq geçen hafta düzeltme bölgesine girdi, bu hafta kısmen toparlandı. Borsa İstanbul'da ise BIST 100 Cuma'yı %0,27 artışla 11.842,82'den kapattı ve haftalık bazda %3,14 kazandı. Gram altın haftayı %3,5 kayıpla tamamladı.",
+    "markets": [
+      { "id": "SPX", "group": "ABD", "name": "S&P 500", "value": 7592.40, "changePct": -0.35, "asOf": "12 Kas kapanış", "proxy": "SPY" },
+      { "id": "IXIC", "group": "ABD", "name": "Nasdaq", "value": 25366.09, "changePct": -0.39, "asOf": "12 Kas kapanış", "proxy": "QQQ" },
+      { "id": "DJI", "group": "ABD", "name": "Dow Jones", "value": 52297.09, "changePct": -0.36, "asOf": "12 Kas kapanış", "proxy": "DIA" },
+      { "id": "XU100", "group": "BIST", "name": "BIST 100", "value": 11842.82, "changePct": 0.27, "asOf": "13 Kas kapanış" },
+      { "id": "XU030", "group": "BIST", "name": "BIST 30", "value": 14844.74, "changePct": 0.20, "asOf": "13 Kas kapanış" }
+    ],
+    "moversTitle": "BIST 100: günün öne çıkanları",
+    "movers": {
+      "up": [
+        { "sym": "TKNKA", "price": 37.62, "changePct": 10.0 },
+        { "sym": "SEGMN", "price": 15.18, "changePct": 10.0 },
+        { "sym": "UFUK", "price": 160.60, "changePct": 10.0 },
+        { "sym": "BIMAS", "price": 395.50, "changePct": 1.93 }
+      ],
+      "down": [
+        { "sym": "EFOR", "price": 10.53, "changePct": -10.0 },
+        { "sym": "KRDMB", "price": 58.65, "changePct": -9.98 },
+        { "sym": "HRKET", "price": 6.69, "changePct": -9.96 },
+        { "sym": "ASTOR", "price": 163.80, "changePct": -7.56 }
+      ]
+    }
+  },
+  "quotes": {
+    "USDTRY": { "price": 50.37, "changePct": 0.11, "asOf": "13 Kas 18:30" },
+    "EURTRY": { "price": 55.63, "changePct": -0.21, "asOf": "13 Kas 18:30" },
+    "XAUUSD": { "price": 3880, "changePct": 0.07, "asOf": "13 Kas 18:30" },
+    "GAUTRY": { "price": 6300.20, "changePct": 0.63, "asOf": "13 Kas 18:30" },
+    "THYAO": { "price": 320.25, "changePct": 0.39, "asOf": "13 Kas kapanış" },
+    "ASELS": { "price": 345.50, "changePct": 0.22, "asOf": "13 Kas kapanış" },
+    "BIMAS": { "price": 395.50, "changePct": 1.93, "asOf": "13 Kas kapanış" },
+    "TUPRS": { "price": 359.00, "changePct": 0.56, "asOf": "13 Kas kapanış" },
+    "KCHOL": { "price": 207.50, "changePct": -0.34, "asOf": "13 Kas kapanış" },
+    "AKBNK": { "price": 69.95, "changePct": -0.21, "asOf": "13 Kas kapanış" },
+    "ASTOR": { "price": 163.80, "changePct": -7.56, "asOf": "13 Kas kapanış" },
+    "ENKAI": { "price": 83.40, "changePct": 1.28, "asOf": "13 Kas kapanış" }
+  },
+  "news": [
+    {
+      "tag": "ABD · Şirket",
+      "title": "Jensen Huang Nvidia CEO'luğundan istifa etti",
+      "text": "Nvidia, Huang'ın istifasını duyurdu. CFO Colette Kress geçici CEO, Harvey C. Jones da şirketin ilk yönetim kurulu başkanı oldu. Hisse Perşembe günü sert düştü.",
+      "why": "Nvidia tek başına S&P 500'ün yaklaşık %6'sı ve AI rallisinin lokomotifi. 17 Kasım'daki bilanço, Huang sonrası dönemin ilk sınavı olacak.",
+      "source": "SEC / CNBC",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvidiaannouncesceotransiti.htm"
+    },
+    {
+      "tag": "ABD · Fed",
+      "title": "Piyasa artık Fed'den faiz indirimi değil artırım bekliyor",
+      "text": "Ekim enflasyonu beklentiden yüksek geldi. Bir Fed yetkilisi de Aralık'ta yarım puanlık artış ihtimalini dile getirdi.",
+      "why": "Faiz artışı hisse değerlemelerini (özellikle teknolojiyi) baskılar ve doları güçlendirir. Bu da gelişmekte olan piyasalara ve TL'ye yansır.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/09/stock-market-today-live-updates.html"
+    },
+    {
+      "tag": "Emtia · Jeopolitik",
+      "title": "İran gerginliği petrolü yeniden yukarı itti",
+      "text": "Orta Doğu'daki çatışmanın seyrine dair belirsizlik Perşembe günü petrol fiyatlarını yükseltti.",
+      "why": "Pahalı petrol enflasyonu besler, bu da Fed'in faiz artırma ihtimalini güçlendirir. Enerji ithalatçısı Türkiye için cari açık riski demek.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/11/stock-market-today-live-updates.html"
+    },
+    {
+      "tag": "ABD · AI",
+      "title": "AI hisselerinde lunapark haftası",
+      "text": "Ara seçimler sonrası veri merkezi harcamalarının yavaşlayacağı korkusuyla Nasdaq düzeltme bölgesine girmişti. Bu hafta CoreWeave bilançosuyla toparlanma geldi.",
+      "why": "Piyasa AI yatırımlarının sürdürülebilirliğini sorguluyor. Nvidia bilançosu bu tartışmanın yönünü belirleyebilir.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/10/stock-market-today-live-updates.html"
+    },
+    {
+      "tag": "Türkiye",
+      "title": "BIST 100 haftayı %3,14 yükselişle tamamladı",
+      "text": "Endeks Cuma'yı %0,27 artışla 11.842,82'den kapattı. Hafta boyunca dolar/TL %0,42 yükselirken gram altın %3,53 değer kaybetti.",
+      "why": "Küresel dalgalanmaya rağmen Borsa İstanbul pozitif ayrıştı. Analistler 12.000 ve 12.100 puanı direnç olarak izliyor.",
+      "source": "Anadolu Ajansı",
+      "url": "https://www.aa.com.tr/tr/ekonomi/borsa-gunu-yukselisle-tamamladi/4124427"
+    }
+  ],
+  "calendar": [
+    { "date": "2026-11-16", "when": "16-20 Kasım", "country": "TR", "title": "Tüketici güven endeksi, reel kesim güven endeksi, kapasite kullanım oranı", "importance": 2, "note": "Haftanın yurt içi verileri" },
+    { "date": "2026-11-16", "when": "16-20 Kasım", "country": "AB", "title": "Avro Bölgesi, İngiltere ve Japonya enflasyon verileri", "importance": 2, "note": "Küresel enflasyon tablosu" },
+    { "date": "2026-11-18", "time": "00:20", "country": "ABD", "title": "Nvidia 3. çeyrek bilançosu", "importance": 3, "note": "ABD'de 17 Kasım kapanış sonrası; TR saatiyle 18 Kasım gece" },
+    { "date": "2026-11-18", "when": "16-20 Kasım", "country": "ABD", "title": "FOMC toplantı tutanakları", "importance": 3, "note": "Faiz artırımı sinyalleri aranacak" }
+  ]
+}
