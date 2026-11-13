@@ -769,7 +769,7 @@
     layout: { background: { color: 'transparent' }, textColor: '#9FB2CF', fontFamily: 'Inter, sans-serif' },
     grid: { vertLines: { color: 'rgba(150,190,240,.07)' }, horzLines: { color: 'rgba(150,190,240,.07)' } },
     rightPriceScale: { borderColor: 'rgba(150,190,240,.2)', minimumWidth: 78 }, timeScale: { borderColor: 'rgba(150,190,240,.2)' },
-    crosshair: { mode: 0 }, localization: { locale: 'tr-TR' }, handleScroll: { vertTouchDrag: false },
+    crosshair: { mode: 0 }, localization: { locale: 'tr-TR' }, handleScroll: { vertTouchDrag: false, mouseWheel: false }, handleScale: { mouseWheel: false },
   });
   function lineData(c, arr) { return arr.map((v, k) => v == null ? null : { time: c[k].time, value: v }).filter(Boolean); }
   let curRange = 252;
