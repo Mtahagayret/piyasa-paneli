@@ -1,0 +1,15 @@
+{
+  "name": "Piyasa Paneli",
+  "short_name": "Piyasa",
+  "description": "Tüm piyasalar tek ekranda",
+  "start_url": "./#ozet",
+  "display": "standalone",
+  "background_color": "#0B1D3A",
+  "theme_color": "#0B1D3A",
+  "lang": "tr",
+  "icons": [
+    { "src": "img/icon-180.png", "sizes": "180x180", "type": "image/png" },
+    { "src": "img/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "img/icon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}
