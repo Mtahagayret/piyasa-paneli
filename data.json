@@ -5,41 +5,159 @@
     "headline": "Nvidia'da Huang dönemi kapandı, Borsa İstanbul haftayı %3 kazançla bitirdi",
     "text": "ABD'de Perşembe günü üç endeks de yaklaşık %0,4 geriledi. Jensen Huang'ın Nvidia CEO'luğundan istifası, Fed'in Aralık'ta faiz artırabileceği beklentisi ve İran kaynaklı petrol yükselişi aynı gün fiyatlandı. Haftanın genel hikâyesi ise AI hisselerinde sert dalgalanma oldu: Nasdaq geçen hafta düzeltme bölgesine girdi, bu hafta kısmen toparlandı. Borsa İstanbul'da ise BIST 100 Cuma'yı %0,27 artışla 11.842,82'den kapattı ve haftalık bazda %3,14 kazandı. Gram altın haftayı %3,5 kayıpla tamamladı.",
     "markets": [
-      { "id": "SPX", "group": "ABD", "name": "S&P 500", "value": 7592.40, "changePct": -0.35, "asOf": "12 Kas kapanış", "proxy": "SPY" },
-      { "id": "IXIC", "group": "ABD", "name": "Nasdaq", "value": 25366.09, "changePct": -0.39, "asOf": "12 Kas kapanış", "proxy": "QQQ" },
-      { "id": "DJI", "group": "ABD", "name": "Dow Jones", "value": 52297.09, "changePct": -0.36, "asOf": "12 Kas kapanış", "proxy": "DIA" },
-      { "id": "XU100", "group": "BIST", "name": "BIST 100", "value": 11842.82, "changePct": 0.27, "asOf": "13 Kas kapanış" },
-      { "id": "XU030", "group": "BIST", "name": "BIST 30", "value": 14844.74, "changePct": 0.20, "asOf": "13 Kas kapanış" }
+      {
+        "id": "SPX",
+        "group": "ABD",
+        "name": "S&P 500",
+        "value": 7592.4,
+        "changePct": -0.35,
+        "asOf": "12 Kas kapanış",
+        "proxy": "SPY"
+      },
+      {
+        "id": "IXIC",
+        "group": "ABD",
+        "name": "Nasdaq",
+        "value": 25366.09,
+        "changePct": -0.39,
+        "asOf": "12 Kas kapanış",
+        "proxy": "QQQ"
+      },
+      {
+        "id": "DJI",
+        "group": "ABD",
+        "name": "Dow Jones",
+        "value": 52297.09,
+        "changePct": -0.36,
+        "asOf": "12 Kas kapanış",
+        "proxy": "DIA"
+      },
+      {
+        "id": "XU100",
+        "group": "BIST",
+        "name": "BIST 100",
+        "value": 11842.82,
+        "changePct": 0.27,
+        "asOf": "13 Kas kapanış"
+      },
+      {
+        "id": "XU030",
+        "group": "BIST",
+        "name": "BIST 30",
+        "value": 14844.74,
+        "changePct": 0.2,
+        "asOf": "13 Kas kapanış"
+      }
     ],
     "moversTitle": "BIST 100: günün öne çıkanları",
     "movers": {
       "up": [
-        { "sym": "TKNKA", "price": 37.62, "changePct": 10.0 },
-        { "sym": "SEGMN", "price": 15.18, "changePct": 10.0 },
-        { "sym": "UFUK", "price": 160.60, "changePct": 10.0 },
-        { "sym": "BIMAS", "price": 395.50, "changePct": 1.93 }
+        {
+          "sym": "TKNKA",
+          "price": 37.62,
+          "changePct": 10.0
+        },
+        {
+          "sym": "SEGMN",
+          "price": 15.18,
+          "changePct": 10.0
+        },
+        {
+          "sym": "UFUK",
+          "price": 160.6,
+          "changePct": 10.0
+        },
+        {
+          "sym": "BIMAS",
+          "price": 395.5,
+          "changePct": 1.93
+        }
       ],
       "down": [
-        { "sym": "EFOR", "price": 10.53, "changePct": -10.0 },
-        { "sym": "KRDMB", "price": 58.65, "changePct": -9.98 },
-        { "sym": "HRKET", "price": 6.69, "changePct": -9.96 },
-        { "sym": "ASTOR", "price": 163.80, "changePct": -7.56 }
+        {
+          "sym": "EFOR",
+          "price": 10.53,
+          "changePct": -10.0
+        },
+        {
+          "sym": "KRDMB",
+          "price": 58.65,
+          "changePct": -9.98
+        },
+        {
+          "sym": "HRKET",
+          "price": 6.69,
+          "changePct": -9.96
+        },
+        {
+          "sym": "ASTOR",
+          "price": 163.8,
+          "changePct": -7.56
+        }
       ]
     }
   },
   "quotes": {
-    "USDTRY": { "price": 50.37, "changePct": 0.11, "asOf": "13 Kas 18:30" },
-    "EURTRY": { "price": 55.63, "changePct": -0.21, "asOf": "13 Kas 18:30" },
-    "XAUUSD": { "price": 3880, "changePct": 0.07, "asOf": "13 Kas 18:30" },
-    "GAUTRY": { "price": 6300.20, "changePct": 0.63, "asOf": "13 Kas 18:30" },
-    "THYAO": { "price": 320.25, "changePct": 0.39, "asOf": "13 Kas kapanış" },
-    "ASELS": { "price": 345.50, "changePct": 0.22, "asOf": "13 Kas kapanış" },
-    "BIMAS": { "price": 395.50, "changePct": 1.93, "asOf": "13 Kas kapanış" },
-    "TUPRS": { "price": 359.00, "changePct": 0.56, "asOf": "13 Kas kapanış" },
-    "KCHOL": { "price": 207.50, "changePct": -0.34, "asOf": "13 Kas kapanış" },
-    "AKBNK": { "price": 69.95, "changePct": -0.21, "asOf": "13 Kas kapanış" },
-    "ASTOR": { "price": 163.80, "changePct": -7.56, "asOf": "13 Kas kapanış" },
-    "ENKAI": { "price": 83.40, "changePct": 1.28, "asOf": "13 Kas kapanış" }
+    "USDTRY": {
+      "price": 50.37,
+      "changePct": 0.11,
+      "asOf": "13 Kas 18:30"
+    },
+    "EURTRY": {
+      "price": 55.63,
+      "changePct": -0.21,
+      "asOf": "13 Kas 18:30"
+    },
+    "XAUUSD": {
+      "price": 3880,
+      "changePct": 0.07,
+      "asOf": "13 Kas 18:30"
+    },
+    "GAUTRY": {
+      "price": 6300.2,
+      "changePct": 0.63,
+      "asOf": "13 Kas 18:30"
+    },
+    "THYAO": {
+      "price": 320.25,
+      "changePct": 0.39,
+      "asOf": "13 Kas kapanış"
+    },
+    "ASELS": {
+      "price": 345.5,
+      "changePct": 0.22,
+      "asOf": "13 Kas kapanış"
+    },
+    "BIMAS": {
+      "price": 395.5,
+      "changePct": 1.93,
+      "asOf": "13 Kas kapanış"
+    },
+    "TUPRS": {
+      "price": 359.0,
+      "changePct": 0.56,
+      "asOf": "13 Kas kapanış"
+    },
+    "KCHOL": {
+      "price": 207.5,
+      "changePct": -0.34,
+      "asOf": "13 Kas kapanış"
+    },
+    "AKBNK": {
+      "price": 69.95,
+      "changePct": -0.21,
+      "asOf": "13 Kas kapanış"
+    },
+    "ASTOR": {
+      "price": 163.8,
+      "changePct": -7.56,
+      "asOf": "13 Kas kapanış"
+    },
+    "ENKAI": {
+      "price": 83.4,
+      "changePct": 1.28,
+      "asOf": "13 Kas kapanış"
+    }
   },
   "news": [
     {
@@ -84,9 +202,138 @@
     }
   ],
   "calendar": [
-    { "date": "2026-11-16", "when": "16-20 Kasım", "country": "TR", "title": "Tüketici güven endeksi, reel kesim güven endeksi, kapasite kullanım oranı", "importance": 2, "note": "Haftanın yurt içi verileri" },
-    { "date": "2026-11-16", "when": "16-20 Kasım", "country": "AB", "title": "Avro Bölgesi, İngiltere ve Japonya enflasyon verileri", "importance": 2, "note": "Küresel enflasyon tablosu" },
-    { "date": "2026-11-18", "time": "00:20", "country": "ABD", "title": "Nvidia 3. çeyrek bilançosu", "importance": 3, "note": "ABD'de 17 Kasım kapanış sonrası; TR saatiyle 18 Kasım gece" },
-    { "date": "2026-11-18", "when": "16-20 Kasım", "country": "ABD", "title": "FOMC toplantı tutanakları", "importance": 3, "note": "Faiz artırımı sinyalleri aranacak" }
-  ]
+    {
+      "date": "2026-11-16",
+      "when": "16-20 Kasım",
+      "country": "TR",
+      "title": "Tüketici güven endeksi, reel kesim güven endeksi, kapasite kullanım oranı",
+      "importance": 2,
+      "note": "Haftanın yurt içi verileri"
+    },
+    {
+      "date": "2026-11-16",
+      "when": "16-20 Kasım",
+      "country": "AB",
+      "title": "Avro Bölgesi, İngiltere ve Japonya enflasyon verileri",
+      "importance": 2,
+      "note": "Küresel enflasyon tablosu"
+    },
+    {
+      "date": "2026-11-18",
+      "time": "00:20",
+      "country": "ABD",
+      "title": "Nvidia 3. çeyrek bilançosu",
+      "importance": 3,
+      "note": "ABD'de 17 Kasım kapanış sonrası; TR saatiyle 18 Kasım gece"
+    },
+    {
+      "date": "2026-11-18",
+      "when": "16-20 Kasım",
+      "country": "ABD",
+      "title": "FOMC toplantı tutanakları",
+      "importance": 3,
+      "note": "Faiz artırımı sinyalleri aranacak"
+    }
+  ],
+  "history": {
+    "THYAO": [
+      [
+        "2026-11-03",
+        265.0
+      ],
+      [
+        "2026-11-04",
+        291.25
+      ],
+      [
+        "2026-11-05",
+        297.0
+      ],
+      [
+        "2026-11-06",
+        299.25
+      ],
+      [
+        "2026-11-13",
+        320.25
+      ]
+    ],
+    "ASELS": [
+      [
+        "2026-11-03",
+        342.5
+      ],
+      [
+        "2026-11-04",
+        353.75
+      ],
+      [
+        "2026-11-05",
+        329.0
+      ],
+      [
+        "2026-11-06",
+        331.75
+      ],
+      [
+        "2026-11-13",
+        345.5
+      ]
+    ],
+    "BIMAS": [
+      [
+        "2026-11-03",
+        359.5
+      ],
+      [
+        "2026-11-04",
+        372.0
+      ],
+      [
+        "2026-11-05",
+        369.25
+      ],
+      [
+        "2026-11-06",
+        371.75
+      ],
+      [
+        "2026-11-13",
+        395.5
+      ]
+    ],
+    "TUPRS": [
+      [
+        "2026-11-03",
+        338.25
+      ],
+      [
+        "2026-11-05",
+        331.75
+      ],
+      [
+        "2026-11-06",
+        337.5
+      ],
+      [
+        "2026-11-13",
+        359.0
+      ]
+    ],
+    "XU100": [
+      [
+        "2026-11-06",
+        11482.6
+      ],
+      [
+        "2026-11-12",
+        11811.19
+      ],
+      [
+        "2026-11-13",
+        11842.82
+      ]
+    ]
+  },
+  "fundamentals": {}
 }

@@ -23,7 +23,7 @@
     </div>
     <nav class="nav" id="nav">
       <a href="#ozet" data-view="ozet"><span class="ic">◧</span>Günlük Özet</a>
-      <a href="#izleme" data-view="izleme"><span class="ic">◉</span>İzleme Listesi</a>
+      <a href="#izleme" data-view="izleme"><span class="ic">◉</span>İzleme Listeleri<span class="nbadge" id="alarmBadge" title="Aktif alarm" style="display:none">0</span></a>
       <a href="#haberler" data-view="haberler"><span class="ic">≡</span>Haberler</a>
       <a href="#portfoy" data-view="portfoy"><span class="ic">₺</span>Portföyüm</a>
       <a href="#takvim" data-view="takvim"><span class="ic">▦</span>Ekonomik Takvim</a>
@@ -42,12 +42,20 @@
     <header class="topbar">
       <button class="menu-btn" id="menuBtn" aria-label="Menüyü aç">☰</button>
       <h1 id="viewTitle">Günlük Özet</h1>
+      <div class="search">
+        <input id="searchIn" type="search" placeholder="Ara: apple, aselsan, bitcoin…" autocomplete="off" aria-label="Varlık ara">
+        <div class="search-res" id="searchRes" hidden></div>
+      </div>
       <div class="clock" id="clock"></div>
     </header>
     <section class="view" id="view"></section>
   </main>
 
+  <div class="tour" id="tour" hidden></div>
+  <div class="tip-bubble" id="tipBubble" hidden></div>
   <div class="toast" id="toast"></div>
+  <script src="lib/lightweight-charts.js"></script>
+  <script src="ta.js"></script>
   <script src="app.js"></script>
 </body>
 </html>
