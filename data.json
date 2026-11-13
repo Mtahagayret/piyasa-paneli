@@ -1,35 +1,35 @@
 {
-  "updated": "2026-11-13T18:30:00+03:00",
-  "updatedLabel": "13 Kasım 2026, 18:30",
+  "updated": "2026-11-14T00:50:00+03:00",
+  "updatedLabel": "14 Kasım 2026, 00:50",
   "summary": {
-    "headline": "Nvidia'da Huang dönemi kapandı, Borsa İstanbul haftayı %3 kazançla bitirdi",
-    "text": "ABD'de Perşembe günü üç endeks de yaklaşık %0,4 geriledi. Jensen Huang'ın Nvidia CEO'luğundan istifası, Fed'in Aralık'ta faiz artırabileceği beklentisi ve İran kaynaklı petrol yükselişi aynı gün fiyatlandı. Haftanın genel hikâyesi ise AI hisselerinde sert dalgalanma oldu: Nasdaq geçen hafta düzeltme bölgesine girdi, bu hafta kısmen toparlandı. Borsa İstanbul'da ise BIST 100 Cuma'yı %0,27 artışla 11.842,82'den kapattı ve haftalık bazda %3,14 kazandı. Gram altın haftayı %3,5 kayıpla tamamladı.",
+    "headline": "Wall Street haftayı tökezleyerek kapattı: Nasdaq %0,9 düştü, BIST 100 haftalık %3,14 kazançla ayrıştı",
+    "text": "ABD'de Cuma günü teknoloji satışı ağır bastı: Nasdaq %0,90 düşüşle 25.138,73'e, S&P 500 %0,41 kayıpla 7.560,97'ye geriledi, Dow Jones ise %0,10 artıda kalmayı başardı. Jensen Huang'ın istifası sonrası Nvidia'daki belirsizlik çip hisselerini (özellikle AMD'yi) aşağı çekti, 10 yıllık ABD tahvil faizinin %5'in üzerine çıkması da değerlemeleri baskıladı. Borsa İstanbul'da BIST 100 günü %0,27 artışla 11.842,82'den kapattı ve haftayı %3,14 kazançla bitirdi; Astor %7,56 ile günün en sert düşenlerindendi. Dolar/TL 50,37 civarında sakin seyrederken ons altın 3.880 dolarda, gram altın 6.300 TL civarında; altın haftayı sert kayıpla tamamladı. Brent petrol ise 96 doların üzerinde.",
     "markets": [
       {
         "id": "SPX",
         "group": "ABD",
         "name": "S&P 500",
-        "value": 7592.4,
-        "changePct": -0.35,
-        "asOf": "12 Kas kapanış",
+        "value": 7560.97,
+        "changePct": -0.41,
+        "asOf": "13 Kas kapanış",
         "proxy": "SPY"
       },
       {
         "id": "IXIC",
         "group": "ABD",
         "name": "Nasdaq",
-        "value": 25366.09,
-        "changePct": -0.39,
-        "asOf": "12 Kas kapanış",
+        "value": 25138.73,
+        "changePct": -0.9,
+        "asOf": "13 Kas kapanış",
         "proxy": "QQQ"
       },
       {
         "id": "DJI",
         "group": "ABD",
         "name": "Dow Jones",
-        "value": 52297.09,
-        "changePct": -0.36,
-        "asOf": "12 Kas kapanış",
+        "value": 52347.55,
+        "changePct": 0.1,
+        "asOf": "13 Kas kapanış",
         "proxy": "DIA"
       },
       {
@@ -53,46 +53,46 @@
     "movers": {
       "up": [
         {
-          "sym": "TKNKA",
-          "price": 37.62,
-          "changePct": 10.0
+          "sym": "CCOLA",
+          "price": 80.3,
+          "changePct": 5.45
         },
         {
-          "sym": "SEGMN",
-          "price": 15.18,
-          "changePct": 10.0
+          "sym": "AKSA",
+          "price": 11.05,
+          "changePct": 4.64
         },
         {
-          "sym": "UFUK",
-          "price": 160.6,
-          "changePct": 10.0
+          "sym": "TCKRC",
+          "price": 130.8,
+          "changePct": 4.22
         },
         {
-          "sym": "BIMAS",
-          "price": 395.5,
-          "changePct": 1.93
+          "sym": "GLRMK",
+          "price": 116.3,
+          "changePct": 4.03
         }
       ],
       "down": [
         {
-          "sym": "EFOR",
-          "price": 10.53,
-          "changePct": -10.0
-        },
-        {
-          "sym": "KRDMB",
-          "price": 58.65,
-          "changePct": -9.98
-        },
-        {
-          "sym": "HRKET",
-          "price": 6.69,
-          "changePct": -9.96
+          "sym": "TUKAS",
+          "price": 1.98,
+          "changePct": -9.59
         },
         {
           "sym": "ASTOR",
           "price": 163.8,
           "changePct": -7.56
+        },
+        {
+          "sym": "TKFEN",
+          "price": 190.0,
+          "changePct": -7.23
+        },
+        {
+          "sym": "DOAS",
+          "price": 121.6,
+          "changePct": -2.64
         }
       ]
     }
@@ -109,9 +109,9 @@
       "asOf": "13 Kas 18:30"
     },
     "XAUUSD": {
-      "price": 3880,
-      "changePct": 0.07,
-      "asOf": "13 Kas 18:30"
+      "price": 3880.0,
+      "changePct": -0.14,
+      "asOf": "13 Kas kapanış"
     },
     "GAUTRY": {
       "price": 6300.2,
@@ -157,9 +157,127 @@
       "price": 83.4,
       "changePct": 1.28,
       "asOf": "13 Kas kapanış"
+    },
+    "ALARK": {
+      "price": 109.1,
+      "changePct": 2.25,
+      "asOf": "13 Kas kapanış"
+    },
+    "ARCLK": {
+      "price": 68.1,
+      "changePct": -2.08,
+      "asOf": "13 Kas kapanış"
+    },
+    "DOAS": {
+      "price": 121.6,
+      "changePct": -2.64,
+      "asOf": "13 Kas kapanış"
+    },
+    "EKGYO": {
+      "price": 18.56,
+      "changePct": -1.33,
+      "asOf": "13 Kas kapanış"
+    },
+    "EREGL": {
+      "price": 32.7,
+      "changePct": 2.0,
+      "asOf": "13 Kas kapanış"
+    },
+    "FROTO": {
+      "price": 73.75,
+      "changePct": 0.55,
+      "asOf": "13 Kas kapanış"
+    },
+    "GARAN": {
+      "price": 150.3,
+      "changePct": -1.51,
+      "asOf": "13 Kas kapanış"
+    },
+    "GUBRF": {
+      "price": 284.5,
+      "changePct": 1.43,
+      "asOf": "13 Kas kapanış"
+    },
+    "HEKTS": {
+      "price": 1.68,
+      "changePct": -1.18,
+      "asOf": "13 Kas kapanış"
+    },
+    "ISCTR": {
+      "price": 13.55,
+      "changePct": -0.59,
+      "asOf": "13 Kas kapanış"
+    },
+    "KRDMD": {
+      "price": 38.9,
+      "changePct": 0.05,
+      "asOf": "13 Kas kapanış"
+    },
+    "MGROS": {
+      "price": 475.75,
+      "changePct": 0.05,
+      "asOf": "13 Kas kapanış"
+    },
+    "PETKM": {
+      "price": 16.66,
+      "changePct": -0.77,
+      "asOf": "13 Kas kapanış"
+    },
+    "PGSUS": {
+      "price": 155.3,
+      "changePct": -1.83,
+      "asOf": "13 Kas kapanış"
+    },
+    "SAHOL": {
+      "price": 85.2,
+      "changePct": 0.83,
+      "asOf": "13 Kas kapanış"
+    },
+    "SASA": {
+      "price": 1.59,
+      "changePct": -0.63,
+      "asOf": "13 Kas kapanış"
+    },
+    "SISE": {
+      "price": 35.86,
+      "changePct": -0.44,
+      "asOf": "13 Kas kapanış"
+    },
+    "TCELL": {
+      "price": 97.0,
+      "changePct": 0.57,
+      "asOf": "13 Kas kapanış"
+    },
+    "TOASO": {
+      "price": 243.0,
+      "changePct": 2.1,
+      "asOf": "13 Kas kapanış"
+    },
+    "TTKOM": {
+      "price": 51.4,
+      "changePct": 1.68,
+      "asOf": "13 Kas kapanış"
+    },
+    "YKBNK": {
+      "price": 37.78,
+      "changePct": -0.32,
+      "asOf": "13 Kas kapanış"
+    },
+    "BRENT": {
+      "price": 96.44,
+      "changePct": 0.65,
+      "asOf": "13 Kas kapanış"
     }
   },
   "news": [
+    {
+      "tag": "ABD · Piyasa",
+      "title": "Teknoloji satışı Nasdaq'ı haftanın son gününde aşağı çekti",
+      "text": "Cuma günü Nasdaq yaklaşık %0,9, S&P 500 %0,4 geriledi; Dow Jones ise savunmacı hisselerin desteğiyle hafif artıda kapandı. AMD gibi çip hisseleri sert düşerken 10 yıllık ABD tahvil faizi %5'in üzerine tırmandı.",
+      "why": "Tahvil faizi yükseldiğinde gelecekteki kârların bugünkü değeri düşer; bu da en çok büyüme beklentisiyle fiyatlanan teknoloji hisselerini vurur. %5 eşiği piyasa için psikolojik bir sınır.",
+      "source": "The Motley Fool",
+      "url": "https://www.fool.com/coverage/stock-market-today/2026/11/13/stock-market-midday-nov-13-nasdaq-plunges-as-nvidia-turmoil-deepens-and-treasury-yields-hit-5/"
+    },
     {
       "tag": "ABD · Şirket",
       "title": "Jensen Huang Nvidia CEO'luğundan istifa etti",
@@ -167,6 +285,14 @@
       "why": "Nvidia tek başına S&P 500'ün yaklaşık %6'sı ve AI rallisinin lokomotifi. 17 Kasım'daki bilanço, Huang sonrası dönemin ilk sınavı olacak.",
       "source": "SEC / CNBC",
       "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvidiaannouncesceotransiti.htm"
+    },
+    {
+      "tag": "Türkiye · Makro",
+      "title": "Cari denge Eylül'de 2,72 milyar dolar fazla verdi",
+      "text": "TCMB verilerine göre Türkiye Eylül'de cari fazla verdi; altın ve enerji hariç tutulduğunda fazla 7,3 milyar doları aştı. Fazla Ağustos'taki 4,05 milyar dolara göre daraldı.",
+      "why": "Cari fazla, ülkeye giren dövizin çıkandan fazla olduğu anlamına gelir; bu da TL üzerindeki baskıyı hafifletir. Petrol pahalanırsa bu tablo hızla bozulabilir.",
+      "source": "CNBC-e",
+      "url": "https://www.cnbce.com/veriler/merkez-bankasi-acikladi-eylulde-272-milyar-dolar-cari-fazla-verildi-h41723"
     },
     {
       "tag": "ABD · Fed",
@@ -177,28 +303,20 @@
       "url": "https://www.cnbc.com/2026/11/09/stock-market-today-live-updates.html"
     },
     {
-      "tag": "Emtia · Jeopolitik",
-      "title": "İran gerginliği petrolü yeniden yukarı itti",
-      "text": "Orta Doğu'daki çatışmanın seyrine dair belirsizlik Perşembe günü petrol fiyatlarını yükseltti.",
-      "why": "Pahalı petrol enflasyonu besler, bu da Fed'in faiz artırma ihtimalini güçlendirir. Enerji ithalatçısı Türkiye için cari açık riski demek.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/11/stock-market-today-live-updates.html"
-    },
-    {
-      "tag": "ABD · AI",
-      "title": "AI hisselerinde lunapark haftası",
-      "text": "Ara seçimler sonrası veri merkezi harcamalarının yavaşlayacağı korkusuyla Nasdaq düzeltme bölgesine girmişti. Bu hafta CoreWeave bilançosuyla toparlanma geldi.",
-      "why": "Piyasa AI yatırımlarının sürdürülebilirliğini sorguluyor. Nvidia bilançosu bu tartışmanın yönünü belirleyebilir.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/10/stock-market-today-live-updates.html"
-    },
-    {
       "tag": "Türkiye",
       "title": "BIST 100 haftayı %3,14 yükselişle tamamladı",
-      "text": "Endeks Cuma'yı %0,27 artışla 11.842,82'den kapattı. Hafta boyunca dolar/TL %0,42 yükselirken gram altın %3,53 değer kaybetti.",
-      "why": "Küresel dalgalanmaya rağmen Borsa İstanbul pozitif ayrıştı. Analistler 12.000 ve 12.100 puanı direnç olarak izliyor.",
-      "source": "Anadolu Ajansı",
-      "url": "https://www.aa.com.tr/tr/ekonomi/borsa-gunu-yukselisle-tamamladi/4124427"
+      "text": "Endeks Cuma'yı %0,27 artışla 11.842,82'den kapattı. Hizmetler endeksi %1,26 ile öne çıkarken Astor %7,56 ile günün en çok düşenlerindendi.",
+      "why": "ABD'deki teknoloji dalgalanmasına rağmen Borsa İstanbul pozitif ayrıştı. 12.000 puan, yakından izlenen bir direnç seviyesi.",
+      "source": "Anadolu Ajansı / Canlı Gaste",
+      "url": "https://www.canligaste.com/piyasalarda-gun-sonu-13-kasim-2026/949208/"
+    },
+    {
+      "tag": "Emtia",
+      "title": "Altın haftayı sert kayıpla kapattı, petrol 96 doların üzerinde",
+      "text": "Ons altın Cuma'yı 3.880 dolar civarında tamamladı ve haftalık bazda %5'in üzerinde değer kaybetti. Brent petrol ise İran kaynaklı gerginlikle 96 doların üzerinde kaldı.",
+      "why": "Yükselen faiz beklentisi faiz getirmeyen altını cazibesiz kılıyor. Pahalı petrol ise hem enflasyonu hem de enerji ithal eden Türkiye'nin dış dengesini zorluyor.",
+      "source": "PR Newswire / Canlı Gaste",
+      "url": "https://www.prnewswire.com/news-releases/weekly-gains-hold-up-despite-a-friday-slide-as-chips-lead-and-yields-climb-302939329.html"
     }
   ],
   "calendar": [
@@ -212,11 +330,25 @@
     },
     {
       "date": "2026-11-16",
-      "when": "16-20 Kasım",
-      "country": "AB",
-      "title": "Avro Bölgesi, İngiltere ve Japonya enflasyon verileri",
+      "country": "Çin",
+      "title": "Ekim sanayi üretimi ve perakende satışlar",
       "importance": 2,
-      "note": "Küresel enflasyon tablosu"
+      "note": "Sanayi üretiminde yıllık %5,3 bekleniyor; emtia talebi açısından önemli"
+    },
+    {
+      "date": "2026-11-17",
+      "time": "16:30",
+      "country": "ABD",
+      "title": "Ekim perakende satışlar",
+      "importance": 3,
+      "note": "Aylık %0,2 artış bekleniyor; tüketicinin gücünü gösterir"
+    },
+    {
+      "date": "2026-11-17",
+      "country": "ABD",
+      "title": "Home Depot bilançosu",
+      "importance": 2,
+      "note": "ABD'de piyasa açılmadan önce"
     },
     {
       "date": "2026-11-18",
@@ -224,15 +356,45 @@
       "country": "ABD",
       "title": "Nvidia 3. çeyrek bilançosu",
       "importance": 3,
-      "note": "ABD'de 17 Kasım kapanış sonrası; TR saatiyle 18 Kasım gece"
+      "note": "ABD'de 17 Kasım kapanış sonrası; Huang sonrası ilk bilanço"
     },
     {
       "date": "2026-11-18",
-      "when": "16-20 Kasım",
+      "time": "10:00",
+      "country": "İngiltere",
+      "title": "Ekim enflasyonu",
+      "importance": 2,
+      "note": "BoE manşette %3,7 civarı öngörüyor"
+    },
+    {
+      "date": "2026-11-18",
+      "country": "ABD",
+      "title": "Target, Lowe's ve TJX bilançoları",
+      "importance": 2,
+      "note": "Perakende sektörünün nabzı; piyasa açılmadan önce"
+    },
+    {
+      "date": "2026-11-18",
+      "time": "22:00",
       "country": "ABD",
       "title": "FOMC toplantı tutanakları",
       "importance": 3,
-      "note": "Faiz artırımı sinyalleri aranacak"
+      "note": "Ekim toplantısında iki üye faiz artırımı istemişti; artırım sinyalleri aranacak"
+    },
+    {
+      "date": "2026-11-19",
+      "country": "ABD",
+      "title": "Walmart bilançosu",
+      "importance": 2,
+      "note": "ABD tüketicisinin durumuna dair önemli ipucu"
+    },
+    {
+      "date": "2026-11-20",
+      "time": "18:00",
+      "country": "ABD",
+      "title": "Michigan tüketici güveni (nihai)",
+      "importance": 1,
+      "note": "Enflasyon beklentisi alt kalemi izlenecek"
     }
   ],
   "history": {
@@ -333,7 +495,222 @@
         "2026-11-13",
         11842.82
       ]
+    ],
+    "AKBNK": [
+      [
+        "2026-11-13",
+        69.95
+      ]
+    ],
+    "ALARK": [
+      [
+        "2026-11-13",
+        109.1
+      ]
+    ],
+    "ARCLK": [
+      [
+        "2026-11-13",
+        68.1
+      ]
+    ],
+    "ASTOR": [
+      [
+        "2026-11-13",
+        163.8
+      ]
+    ],
+    "DOAS": [
+      [
+        "2026-11-13",
+        121.6
+      ]
+    ],
+    "EKGYO": [
+      [
+        "2026-11-13",
+        18.56
+      ]
+    ],
+    "ENKAI": [
+      [
+        "2026-11-13",
+        83.4
+      ]
+    ],
+    "EREGL": [
+      [
+        "2026-11-13",
+        32.7
+      ]
+    ],
+    "FROTO": [
+      [
+        "2026-11-13",
+        73.75
+      ]
+    ],
+    "GARAN": [
+      [
+        "2026-11-13",
+        150.3
+      ]
+    ],
+    "GUBRF": [
+      [
+        "2026-11-13",
+        284.5
+      ]
+    ],
+    "HEKTS": [
+      [
+        "2026-11-13",
+        1.68
+      ]
+    ],
+    "ISCTR": [
+      [
+        "2026-11-13",
+        13.55
+      ]
+    ],
+    "KCHOL": [
+      [
+        "2026-11-13",
+        207.5
+      ]
+    ],
+    "KRDMD": [
+      [
+        "2026-11-13",
+        38.9
+      ]
+    ],
+    "MGROS": [
+      [
+        "2026-11-13",
+        475.75
+      ]
+    ],
+    "PETKM": [
+      [
+        "2026-11-13",
+        16.66
+      ]
+    ],
+    "PGSUS": [
+      [
+        "2026-11-13",
+        155.3
+      ]
+    ],
+    "SAHOL": [
+      [
+        "2026-11-13",
+        85.2
+      ]
+    ],
+    "SASA": [
+      [
+        "2026-11-13",
+        1.59
+      ]
+    ],
+    "SISE": [
+      [
+        "2026-11-13",
+        35.86
+      ]
+    ],
+    "TCELL": [
+      [
+        "2026-11-13",
+        97.0
+      ]
+    ],
+    "TOASO": [
+      [
+        "2026-11-13",
+        243.0
+      ]
+    ],
+    "TTKOM": [
+      [
+        "2026-11-13",
+        51.4
+      ]
+    ],
+    "YKBNK": [
+      [
+        "2026-11-13",
+        37.78
+      ]
     ]
   },
-  "fundamentals": {}
+  "fundamentals": {
+    "THYAO": {
+      "pe": 3.08,
+      "pb": 0.38,
+      "netMargin": 10.19,
+      "roe": 13.13,
+      "de": 0.89,
+      "div": 2.47,
+      "mcap": 385340000000,
+      "sector": "Havacılık / Ulaştırma",
+      "asOf": "14 Eki 2026"
+    },
+    "BIMAS": {
+      "pe": 18.93,
+      "pb": 2.43,
+      "netMargin": 3.44,
+      "roe": 15.59,
+      "de": 0.31,
+      "div": 1.6,
+      "mcap": 492990000000,
+      "sector": "Perakende",
+      "asOf": "5 Eyl 2026"
+    },
+    "TUPRS": {
+      "pe": 11.73,
+      "pb": 1.71,
+      "netMargin": 6.56,
+      "roe": 17.6,
+      "de": 0.15,
+      "div": 4.15,
+      "mcap": 791430000000,
+      "sector": "Enerji / Rafineri",
+      "asOf": "24 Eyl 2026"
+    },
+    "KCHOL": {
+      "pe": 9.57,
+      "pb": 0.42,
+      "netMargin": 1.94,
+      "roe": 6.12,
+      "de": 1.23,
+      "div": 3.3,
+      "mcap": 529240000000,
+      "sector": "Holding",
+      "asOf": "9 Eki 2026"
+    },
+    "EREGL": {
+      "pe": 23.25,
+      "pb": 0.65,
+      "netMargin": 3.61,
+      "roe": 3.04,
+      "de": 0.47,
+      "div": 1.72,
+      "mcap": 224420000000,
+      "sector": "Demir-Çelik",
+      "asOf": "12 Kas 2026"
+    },
+    "ASELS": {
+      "pe": 47.25,
+      "netMargin": 18.1,
+      "revGrowth": 12.2,
+      "div": 0.11,
+      "mcap": 1700000000000,
+      "sector": "Savunma Sanayi",
+      "asOf": "25 Eyl 2026"
+    }
+  }
 }
