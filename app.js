@@ -256,7 +256,7 @@
   async function getCandles(id) {
     if (memCandles[id]) return memCandles[id];
     const ck = 'pp.c.' + id, cached = cacheGet(ck);
-    if (cached) return (memCandles[id] = cached);
+    if (cached && cached.ohlc) return (memCandles[id] = cached);
     const i = inst(id);
     let out;
     if (id === 'GAUTRY') {
@@ -277,7 +277,8 @@
           note: 'BIST için ücretsiz geçmiş veri sınırlı. Panel her gün kapanışları biriktiriyor, grafik zamanla dolacak.' };
       }
     } else throw new Error('kaynak yok');
-    if (out.candles.length) cacheSet(ck, out);
+    // Yalnızca tam (OHLC) veriyi günlük önbelleğe al; arşiv yedeği her açılışta data.json'dan taze okunsun
+    if (out.candles.length && out.ohlc) cacheSet(ck, out);
     return (memCandles[id] = out);
   }
 
@@ -758,7 +759,8 @@
       if (detailId !== id) return;
       const need = e.need === 'td';
       $('#chMain').innerHTML = `<div class="empty">${need ? `ABD hisselerinin geçmiş grafiği için ücretsiz bir <b>Twelve Data</b> anahtarı gerekiyor.<br><a href="#ayarlar">Ayarlar</a>'dan 1 dakikada ekleyebilirsin.`
-        : e.td === 429 ? 'Twelve Data dakikalık sorgu sınırına ulaşıldı. 1 dakika sonra sayfayı yenile.' : 'Grafik verisi alınamadı: ' + esc(e.message)}</div>`;
+        : e.td === 429 ? 'Twelve Data dakikalık sorgu sınırına ulaşıldı. 1 dakika sonra sayfayı yenile.'
+        : e.message === 'binance' ? 'Binance\'ten geçmiş fiyat alınamadı. İnternet bağlantını kontrol edip sayfayı yenile.' : 'Grafik verisi alınamadı: ' + esc(e.message)}</div>`;
       $('#chRsi').innerHTML = ''; $('#chMacd').innerHTML = '';
       $('#dTech').innerHTML = `<div class="note-hint">Teknik analiz için geçmiş fiyat verisi gerekli.</div>`;
     }
