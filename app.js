@@ -98,6 +98,7 @@
   // ================= Fiyat deposu =================
   const live = {};
   let daily = null;
+  let dailyResolve; const dailyReady = new Promise(r => { dailyResolve = r; });
   const dirty = new Set();
   const lastShown = {};
   function setLive(id, price, prev, src) {
@@ -272,6 +273,8 @@
     } else if (i.type === 'bist') {
       try { out = { candles: await tdSeries(id, 'BIST'), source: 'Twelve Data', ohlc: true }; }
       catch (e) {
+        // Sayfa doğrudan bir varlık linkiyle açıldıysa data.json henüz yüklenmemiş olabilir: önce onu bekle
+        if (!daily) await Promise.race([dailyReady, new Promise(r => setTimeout(r, 8000))]);
         const h = bistHistory(id);
         out = { candles: h, source: 'Günlük kapanışlar (panel arşivi)', ohlc: false,
           note: 'BIST için ücretsiz geçmiş veri sınırlı. Panel her gün kapanışları biriktiriyor, grafik zamanla dolacak.' };
@@ -279,7 +282,8 @@
     } else throw new Error('kaynak yok');
     // Yalnızca tam (OHLC) veriyi günlük önbelleğe al; arşiv yedeği her açılışta data.json'dan taze okunsun
     if (out.candles.length && out.ohlc) cacheSet(ck, out);
-    return (memCandles[id] = out);
+    if (out.candles.length) memCandles[id] = out; // boş sonucu bellekte tutma, sonraki açılışta tekrar denesin
+    return out;
   }
 
   // ================= Temel analiz =================
@@ -1118,6 +1122,7 @@
       if (!dailyLoadedOnce || ['ozet', 'haberler', 'takvim'].includes(current)) renderView();
       dailyLoadedOnce = true;
     } catch (e) { $('#updLabel').textContent = 'Günlük veri yüklenemedi'; }
+    dailyResolve();
   }
 
   // ================= Saat =================
