@@ -1,202 +1,202 @@
 {
-  "updated": "2026-11-18T00:55:00+03:00",
-  "updatedLabel": "18 Kasım 2026, 00:55",
+  "updated": "2026-11-19T00:55:00+03:00",
+  "updatedLabel": "19 Kasım 2026, 00:55",
   "summary": {
-    "headline": "Nvidia beklentileri ezdi geçti ama gün kırmızı bitti: Dow 849 puan düştü, BIST 100 %1,5 geriledi",
-    "text": "ABD'de satışlar ikinci gün de sürdü: Dow Jones %1,64 düşüşle 50.759,42'ye, S&P 500 %1,02 kayıpla 7.340,63'e, Nasdaq %0,74 düşüşle 24.329,09'a indi; korku endeksi VIX 26'ya yaklaştı. Kapanıştan sonra Nvidia 115,8 milyar dolarlık gelirle beklentiyi 7 milyar dolar aştı, 4. çeyrek için de tahminlerin üzerinde rehberlik verdi; hisse ilk tepkide %2,4 yükseldi. Borsa İstanbul'da küresel teknoloji satışının etkisiyle BIST 100 %1,53 düşüşle 11.661 puana geriledi; 84 hisse düşerken teknoloji endeksi %3'e yakın kaybetti, Aselsan %3,3 değer yitirdi. Dolar/TL 50,42'de sakin, ons altın 3.856 dolarla bir yılın en düşük bölgesinde, gram altın 6.251 TL civarında. Brent petrol ise %0,5 artışla 92,9 dolara çıktı.",
+    "headline": "Fed tutanakları faiz artışı sinyalini güçlendirdi: altın %3,5 çakıldı, BIST 100 %1,6 düşüşle 11.477'ye indi",
+    "text": "ABD'de karışık bir gün yaşandı: Fed tutanakları üyelerin neredeyse tamamının yeni faiz artışlarına açık olduğunu gösterdi; Dow Jones UnitedHealth ve Humana'daki çöküşle %1,11 düşerek 50.198'e, S&P 500 %0,24 kayıpla 7.323'e indi, Nasdaq ise Anthropic halka arzı heyecanıyla %0,42 yükseldi. Nvidia güçlü bilançosuna rağmen %2,9 geriledi. Borsa İstanbul'da 100 hisseden 91'i düştü; banka, holding ve madencilik endeksleri sert kayıpla BIST 100'ü %1,57 aşağı, 11.477 puana çekti. Dolar/TL 50,44'te yatay, ama faiz artışı beklentisiyle ons altın %3,5 düşüşle 3.729 dolara inerek bir yılı aşkın sürenin en düşüğünü gördü; gram altın 6.096 TL'ye geriledi. Brent petrol ABD stok artışıyla %1,6 düşüp 91,6 dolara indi.",
     "markets": [
       {
         "id": "SPX",
         "group": "ABD",
         "name": "S&P 500",
-        "value": 7340.63,
-        "changePct": -1.02,
-        "asOf": "17 Kas kapanış",
+        "value": 7322.97,
+        "changePct": -0.24,
+        "asOf": "18 Kas kapanış",
         "proxy": "SPY"
       },
       {
         "id": "IXIC",
         "group": "ABD",
         "name": "Nasdaq",
-        "value": 24329.09,
-        "changePct": -0.74,
-        "asOf": "17 Kas kapanış",
+        "value": 24429.88,
+        "changePct": 0.42,
+        "asOf": "18 Kas kapanış",
         "proxy": "QQQ"
       },
       {
         "id": "DJI",
         "group": "ABD",
         "name": "Dow Jones",
-        "value": 50759.42,
-        "changePct": -1.64,
-        "asOf": "17 Kas kapanış",
+        "value": 50198.17,
+        "changePct": -1.11,
+        "asOf": "18 Kas kapanış",
         "proxy": "DIA"
       },
       {
         "id": "XU100",
         "group": "BIST",
         "name": "BIST 100",
-        "value": 11661.0,
-        "changePct": -1.53,
-        "asOf": "17 Kas kapanış"
+        "value": 11477.41,
+        "changePct": -1.57,
+        "asOf": "18 Kas kapanış"
       },
       {
         "id": "XU030",
         "group": "BIST",
         "name": "BIST 30",
-        "value": 14614.92,
-        "changePct": -1.53,
-        "asOf": "17 Kas kapanış"
+        "value": 14412.79,
+        "changePct": -1.38,
+        "asOf": "18 Kas kapanış"
       }
     ],
-    "moversTitle": "BIST 100: günün öne çıkanları",
+    "moversTitle": "BIST 100: kırmızı günde öne çıkanlar",
     "movers": {
       "up": [
         {
-          "sym": "EGGUB",
-          "price": 89.55,
-          "changePct": 9.94
+          "sym": "FROTO",
+          "price": 72.6,
+          "changePct": 1.26
         },
         {
-          "sym": "BINHO",
-          "price": 4.61,
-          "changePct": 7.96
+          "sym": "ASELS",
+          "price": 343.75,
+          "changePct": 0.66
         },
         {
-          "sym": "BERA",
-          "price": 10.46,
-          "changePct": 2.05
+          "sym": "THYAO",
+          "price": 323.75,
+          "changePct": 0.47
         },
         {
-          "sym": "TKFEN",
-          "price": 192.1,
-          "changePct": 1.91
+          "sym": "TUPRS",
+          "price": 345.75,
+          "changePct": 0.14
         }
       ],
       "down": [
         {
-          "sym": "GLRMK",
-          "price": 121.8,
-          "changePct": -4.77
+          "sym": "BINHO",
+          "price": 4.15,
+          "changePct": -9.98
         },
         {
-          "sym": "RYSAS",
-          "price": 24.48,
-          "changePct": -4.0
+          "sym": "VESTL",
+          "price": 13.73,
+          "changePct": -9.67
         },
         {
-          "sym": "TTRAK",
-          "price": 352.5,
-          "changePct": -3.69
+          "sym": "ZOREN",
+          "price": 1.44,
+          "changePct": -9.43
         },
         {
-          "sym": "HEKTS",
-          "price": 1.64,
-          "changePct": -3.53
+          "sym": "TRALT",
+          "price": 35.96,
+          "changePct": -4.97
         }
       ]
     }
   },
   "quotes": {
     "USDTRY": {
-      "price": 50.42,
-      "changePct": 0.06,
-      "asOf": "17 Kas kapanış"
+      "price": 50.44,
+      "changePct": 0.04,
+      "asOf": "18 Kas kapanış"
     },
     "EURTRY": {
-      "price": 55.49,
-      "changePct": -0.04,
-      "asOf": "17 Kas kapanış"
+      "price": 55.38,
+      "changePct": -0.21,
+      "asOf": "18 Kas kapanış"
     },
     "XAUUSD": {
-      "price": 3855.6,
-      "changePct": 0.07,
-      "asOf": "17 Kas"
+      "price": 3729.3,
+      "changePct": -3.49,
+      "asOf": "18 Kas"
     },
     "GAUTRY": {
-      "price": 6251.34,
-      "changePct": -0.38,
-      "asOf": "17 Kas kapanış"
+      "price": 6095.96,
+      "changePct": -2.26,
+      "asOf": "18 Kas kapanış"
     },
     "THYAO": {
-      "price": 322.25,
-      "changePct": -0.39,
-      "asOf": "17 Kas kapanış"
+      "price": 323.75,
+      "changePct": 0.47,
+      "asOf": "18 Kas kapanış"
     },
     "ASELS": {
-      "price": 341.5,
-      "changePct": -3.26,
-      "asOf": "17 Kas kapanış"
+      "price": 343.75,
+      "changePct": 0.66,
+      "asOf": "18 Kas kapanış"
     },
     "BIMAS": {
-      "price": 393.25,
-      "changePct": -0.32,
-      "asOf": "17 Kas kapanış"
+      "price": 389.75,
+      "changePct": -0.89,
+      "asOf": "18 Kas kapanış"
     },
     "TUPRS": {
-      "price": 349.5,
-      "changePct": -1.83,
-      "asOf": "17 Kas kapanış"
+      "price": 345.75,
+      "changePct": 0.14,
+      "asOf": "18 Kas kapanış"
     },
     "KCHOL": {
-      "price": 202.0,
-      "changePct": -1.7,
-      "asOf": "17 Kas kapanış"
+      "price": 195.4,
+      "changePct": -3.27,
+      "asOf": "18 Kas kapanış"
     },
     "AKBNK": {
-      "price": 69.05,
-      "changePct": -1.22,
-      "asOf": "17 Kas kapanış"
+      "price": 67.1,
+      "changePct": -2.82,
+      "asOf": "18 Kas kapanış"
     },
     "ASTOR": {
-      "price": 160.0,
-      "changePct": -1.96,
-      "asOf": "17 Kas kapanış"
+      "price": 152.1,
+      "changePct": -4.94,
+      "asOf": "18 Kas kapanış"
     },
     "ENKAI": {
-      "price": 81.9,
-      "changePct": -0.97,
-      "asOf": "17 Kas kapanış"
+      "price": 80.0,
+      "changePct": -2.32,
+      "asOf": "18 Kas kapanış"
     },
     "ALARK": {
-      "price": 105.8,
-      "changePct": -1.58,
-      "asOf": "17 Kas kapanış"
+      "price": 102.4,
+      "changePct": -3.21,
+      "asOf": "18 Kas kapanış"
     },
     "ARCLK": {
-      "price": 67.2,
-      "changePct": -1.39,
-      "asOf": "17 Kas kapanış"
+      "price": 66.15,
+      "changePct": -1.56,
+      "asOf": "18 Kas kapanış"
     },
     "DOAS": {
-      "price": 117.7,
-      "changePct": -2.57,
-      "asOf": "17 Kas kapanış"
+      "price": 115.3,
+      "changePct": -2.04,
+      "asOf": "18 Kas kapanış"
     },
     "EKGYO": {
-      "price": 18.35,
-      "changePct": -1.08,
-      "asOf": "17 Kas kapanış"
+      "price": 17.87,
+      "changePct": -2.62,
+      "asOf": "18 Kas kapanış"
     },
     "EREGL": {
-      "price": 31.86,
-      "changePct": -1.12,
-      "asOf": "17 Kas kapanış"
+      "price": 31.2,
+      "changePct": -2.07,
+      "asOf": "18 Kas kapanış"
     },
     "FROTO": {
-      "price": 71.7,
-      "changePct": -1.78,
-      "asOf": "17 Kas kapanış"
+      "price": 72.6,
+      "changePct": 1.26,
+      "asOf": "18 Kas kapanış"
     },
     "GARAN": {
-      "price": 148.7,
-      "changePct": -0.93,
-      "asOf": "17 Kas kapanış"
+      "price": 145.7,
+      "changePct": -2.02,
+      "asOf": "18 Kas kapanış"
     },
     "GUBRF": {
-      "price": 282.75,
-      "changePct": -2.58,
-      "asOf": "17 Kas kapanış"
+      "price": 276.25,
+      "changePct": -2.3,
+      "asOf": "18 Kas kapanış"
     },
     "HEKTS": {
       "price": 1.64,
@@ -204,173 +204,166 @@
       "asOf": "17 Kas kapanış"
     },
     "ISCTR": {
-      "price": 13.34,
-      "changePct": -1.55,
-      "asOf": "16 Kas kapanış"
+      "price": 12.64,
+      "changePct": -3.14,
+      "asOf": "18 Kas kapanış"
     },
     "KRDMD": {
-      "price": 38.52,
-      "changePct": 0.05,
-      "asOf": "17 Kas kapanış"
+      "price": 37.6,
+      "changePct": -2.39,
+      "asOf": "18 Kas kapanış"
     },
     "MGROS": {
-      "price": 466.75,
-      "changePct": -0.43,
-      "asOf": "17 Kas kapanış"
+      "price": 455.0,
+      "changePct": -2.52,
+      "asOf": "18 Kas kapanış"
     },
     "PETKM": {
-      "price": 16.18,
-      "changePct": -1.76,
-      "asOf": "17 Kas kapanış"
+      "price": 15.4,
+      "changePct": -4.82,
+      "asOf": "18 Kas kapanış"
     },
     "PGSUS": {
-      "price": 158.8,
-      "changePct": 0.83,
-      "asOf": "17 Kas kapanış"
+      "price": 155.0,
+      "changePct": -2.39,
+      "asOf": "18 Kas kapanış"
     },
     "SAHOL": {
-      "price": 83.0,
-      "changePct": -2.01,
-      "asOf": "17 Kas kapanış"
+      "price": 80.6,
+      "changePct": -2.89,
+      "asOf": "18 Kas kapanış"
     },
     "SASA": {
-      "price": 1.59,
-      "changePct": 0.0,
-      "asOf": "16 Kas kapanış"
+      "price": 1.5,
+      "changePct": -3.85,
+      "asOf": "18 Kas kapanış"
     },
     "SISE": {
-      "price": 34.3,
-      "changePct": -1.55,
-      "asOf": "17 Kas kapanış"
+      "price": 33.58,
+      "changePct": -2.1,
+      "asOf": "18 Kas kapanış"
     },
     "TCELL": {
-      "price": 96.3,
-      "changePct": 0.31,
-      "asOf": "17 Kas kapanış"
+      "price": 94.7,
+      "changePct": -1.66,
+      "asOf": "18 Kas kapanış"
     },
     "TOASO": {
-      "price": 245.4,
-      "changePct": -0.24,
-      "asOf": "17 Kas kapanış"
+      "price": 241.7,
+      "changePct": -1.51,
+      "asOf": "18 Kas kapanış"
     },
     "TTKOM": {
-      "price": 51.2,
-      "changePct": -0.39,
-      "asOf": "16 Kas kapanış"
+      "price": 49.3,
+      "changePct": -3.52,
+      "asOf": "18 Kas kapanış"
     },
     "YKBNK": {
-      "price": 37.36,
-      "changePct": -0.32,
-      "asOf": "17 Kas kapanış"
+      "price": 36.52,
+      "changePct": -2.25,
+      "asOf": "18 Kas kapanış"
     },
     "BRENT": {
-      "price": 92.89,
-      "changePct": 0.49,
-      "asOf": "17 Kas"
+      "price": 91.61,
+      "changePct": -1.64,
+      "asOf": "18 Kas"
     }
   },
   "news": [
     {
+      "tag": "ABD · Fed",
+      "title": "Fed tutanakları: Üyelerin neredeyse tamamı yeni faiz artışına açık",
+      "text": "Ekim toplantısının tutanakları, faiz %3,75-4,00'te sabit tutulsa da üyelerin büyük çoğunluğunun ileride yeni artışları uygun gördüğünü ortaya koydu. Bazı üyeler enflasyon kötü gelirse Aralık'ta 25 baz puandan büyük bir adımın konuşulabileceğini söyledi.",
+      "why": "Faiz artışı borçlanmayı pahalılaştırır; hisse ve altın gibi varlıkları baskılar. Piyasa Aralık'taki 25 bp artışı zaten fiyatladığı için hisselerdeki tepki sınırlı kaldı, sert tepki altında geldi.",
+      "source": "XTB",
+      "url": "https://www.xtb.com/int/market-analysis/news-and-research/fed-minutes-virtually-everyone-in-favor-of-further-rate-hikes-is-there-a-chance-for-50-basis-points-in-december"
+    },
+    {
+      "tag": "Türkiye",
+      "title": "Borsa İstanbul'da satış dalgası: 100 hisseden 91'i düştü",
+      "text": "BIST 100 183 puan kayıpla 11.477,41'den kapandı; madencilik %4, holding ve banka endeksleri %2,5'in üzerinde değer kaybetti, yükselen sektör olmadı. Öğleden sonra artan kâr satışları düşüşü derinleştirdi.",
+      "why": "Endekste ağırlığı yüksek olan bankalar düşünce BIST 100 de hızla geriler. Küresel faiz endişesi yabancı yatırımcının risk iştahını azaltıyor.",
+      "source": "Anadolu Ajansı",
+      "url": "https://www.aa.com.tr/tr/ekonomi/borsa-gunu-dususle-tamamladi/4129551"
+    },
+    {
+      "tag": "Emtia",
+      "title": "Altın bir yılı aşkın sürenin en düşüğüne indi, petrol de geriledi",
+      "text": "Fed'in faiz artıracağı beklentisi ve güçlü dolarla ons altın %3,5 düşüşle 3.730 dolar civarına indi. ABD'de petrol ve benzin stoklarının artması WTI'yı %3, Brent'i 90'lı dolarların başına çekti.",
+      "why": "Faiz yükselince getiri sağlamayan altın daha az cazip olur; gram altın da bu yüzden %2'den fazla düştü. Petrolün ucuzlaması enflasyon için iyi haber ama enerji hisselerine kötü.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-18-dow-sp-500-nasdaq-nvidia-earnings-anthropic-ipo-143530588.html"
+    },
+    {
+      "tag": "Şirket",
+      "title": "Nvidia rekor bilançoya rağmen %2,9 düştü",
+      "text": "Nvidia gelirini yıllık %103 artırıp 115,8 milyar dolara çıkarsa da hisse ilk tepkideki yükselişi koruyamadı ve 150,96 dolardan kapandı; bu üst üste beşinci düşüş günü.",
+      "why": "Beklentiyi aşan bir şirketin düşmesi, yatırımcıların yüksek değerleme ve hafif gerileyen kâr marjı beklentisinden çekindiğini gösteriyor. Yapay zekâ hisselerinde 'iyi haber artık yetmiyor' dönemi olabilir.",
+      "source": "Stock Titan",
+      "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-18-2026"
+    },
+    {
+      "tag": "Şirket",
+      "title": "Anthropic halka arzı aralığın üzerinde, 83 dolardan fiyatlandı",
+      "text": "Bloomberg'e göre Anthropic 70-78 dolarlık aralığın üstünde, hisse başına 83 dolardan fiyatlandı. Hisseler 19 Kasım Perşembe günü Nasdaq'ta 'ANT' koduyla işlem görmeye başlayacak.",
+      "why": "Aralığın üzerinde fiyatlama yapay zekâ şirketlerine talebin hâlâ güçlü olduğunu gösteriyor. Tarihin en büyük halka arzlarından biri olarak teknoloji hisselerinin yönünü etkileyebilir.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/technology/live/anthropic-ipo-live-company-said-to-price-stock-at-83-begin-trading-thursday-212656452.html"
+    },
+    {
       "tag": "ABD · Şirket",
-      "title": "Nvidia beklentileri 7 milyar dolar aştı, hisse kapanış sonrası yükseldi",
-      "text": "Nvidia 3. çeyrekte 115,8 milyar dolar gelir ve hisse başına 2,68 dolar kâr açıkladı; piyasa 108,8 milyar dolar ve 2,47 dolar bekliyordu. 4. çeyrek gelir rehberini 127,4-132,6 milyar dolar olarak verdi, hisse ilk tepkide %2,4 yükseldi.",
-      "why": "Nvidia'nın sonuçları yapay zekâ yatırımlarının hâlâ hızla büyüdüğünü gösteriyor. Son günlerde %25'ten fazla düşen teknoloji hisseleri için toparlanma fırsatı doğabilir; ama Huang'ın görevden ayrılmasıyla oluşan yönetim belirsizliği hâlâ masada.",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/11/17/nvidia-tops-estimates-issues-strong-guidance-adds-usd150-billion-to-buyback-authorization"
-    },
-    {
-      "tag": "ABD · Piyasa",
-      "title": "Wall Street'te satış sürdü: Dow 849 puan kaybetti",
-      "text": "Dow Jones %1,64, S&P 500 %1,02, Nasdaq %0,74 düştü. Yatırımcılar Nvidia bilançosu öncesi temkinli davrandı, VIX korku endeksi %13 sıçrayarak 26'ya yaklaştı.",
-      "why": "VIX'in 25'in üzerine çıkması piyasada tedirginliğin arttığını gösterir. S&P 500 50 günlük ortalamasının belirgin şekilde altında; bu tür dönemlerde sert iniş çıkışlar olağandır.",
-      "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-17-dow-sp-500-nasdaq-nvidia-earnings-retail-sales-143848454.html"
-    },
-    {
-      "tag": "ABD · Ekonomi",
-      "title": "Perakende satışlar beklentiyi aştı, konut sektöründe güven 14 yılın dibinde",
-      "text": "ABD'de Ekim perakende satışları %0,1 beklentiye karşı %0,2 arttı. Buna karşılık NAHB konut inşaatçıları güven endeksi 25'e düşerek 2012'den bu yana en düşük seviyeye indi.",
-      "why": "Tüketici harcamaları güçlü kalırsa Fed'in faiz artırma ihtimali konuşulmaya devam eder (St. Louis Fed Başkanı Musalem artırımın erken gelmesini istedi). Yüksek faizler ise konut sektörünü zorluyor.",
-      "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-17-dow-sp-500-nasdaq-nvidia-earnings-retail-sales-143848454.html"
-    },
-    {
-      "tag": "Türkiye · Borsa",
-      "title": "BIST 100 küresel teknoloji satışıyla %1,5 geriledi",
-      "text": "BIST 100 günü 180,8 puan düşüşle 11.661 puandan kapattı; endeksteki 84 hisse düşerken yalnızca 15'i yükseldi. Teknoloji endeksi %2,98, bankacılık endeksi %1,16 geriledi.",
-      "why": "Yabancı piyasalardaki risk iştahı Borsa İstanbul'u da doğrudan etkiliyor. Analistler 11.500 ve 11.400 puanı destek, 11.700 ve 11.800'ü direnç olarak izliyor.",
-      "source": "AA / Referans Gazetesi",
-      "url": "https://www.referansgazetesi.com.tr/borsa-gunu-dususle-tamamladi-17-kasim"
-    },
-    {
-      "tag": "Emtia · Altın",
-      "title": "Ons altın bir yılın en düşük bölgesinde yatay seyretti",
-      "text": "Ons altın 3.850-3.870 dolar aralığında bir yılın en düşük seviyelerinde kaldı; yılın zirvesi olan 5.627 dolardan yaklaşık %31 aşağıda. Gram altın 6.250 TL civarında.",
-      "why": "Yüksek ABD faizleri getiri sağlamayan altını daha az cazip kılıyor. Fed'in faiz artırma sinyali vermesi altın üzerindeki baskıyı sürdürebilir; dolar/TL sakin kaldığı için gram altın da onsla birlikte hareket ediyor.",
-      "source": "BloombergHT",
-      "url": "https://www.bloomberght.com/piyasalarda-gunun-ozeti-17-kasim-2026-bist-100-de-degisimler-ve-doviz-fiyatlari-pkh-3794908"
-    },
-    {
-      "tag": "ABD · Halka arz",
-      "title": "Anthropic Perşembe günü Nasdaq'ta işlem görmeye başlıyor",
-      "text": "Anthropic, 'ANT' koduyla 19 Kasım'da Nasdaq'ta işlem görmeye başlayacak. Hisse başına 70-78 dolar aralığından 64 milyar dolara kadar kaynak toplaması ve aralığın tepesinde yaklaşık 1,4 trilyon dolarlık değerleme hedefleniyor.",
-      "why": "Tarihin en büyük halka arzı olabilir. Analistler bu kadar büyük bir arzın, yatırımcı parasını diğer yapay zekâ hisselerinden çekebileceği uyarısında bulunuyor.",
-      "source": "The Next Web",
-      "url": "https://thenextweb.com/news/anthropic-ipo-terms-1-4-trillion-valuation"
+      "title": "Perakendeciler güldü, sağlık sigortacıları çöktü",
+      "text": "Target %4, TJX %8 yükseldi; Lowe's da beklentiyi aştı. Buna karşılık Medicare ödemelerine ilişkin yeni öneri sonrası UnitedHealth %10, Humana %13 düştü ve Dow'u aşağı çekti.",
+      "why": "Perakende sonuçları ABD'li tüketicinin harcamaya devam ettiğini gösteriyor. Dow fiyat ağırlıklı bir endeks olduğu için UnitedHealth gibi pahalı bir hissenin düşüşü endeksi orantısız etkiliyor.",
+      "source": "Stock Titan",
+      "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-18-2026"
     }
   ],
   "calendar": [
     {
-      "date": "2026-11-18",
-      "time": "10:00",
-      "country": "İngiltere",
-      "title": "Ekim enflasyonu",
-      "importance": 2,
-      "note": "BoE manşette %3,7 civarı öngörüyor"
-    },
-    {
-      "date": "2026-11-18",
-      "time": "13:00",
-      "country": "AB",
-      "title": "Euro Bölgesi Ekim enflasyonu (nihai)",
-      "importance": 2,
-      "note": "ECB'nin faiz yolunu etkiler; euro 19 ayın en düşüğünde"
-    },
-    {
-      "date": "2026-11-18",
-      "time": "22:00",
-      "country": "ABD",
-      "title": "FOMC toplantı tutanakları",
-      "importance": 3,
-      "note": "Ekim toplantısında iki üye faiz artırımı istemişti; artırım sinyalleri aranacak"
-    },
-    {
-      "date": "2026-11-18",
-      "country": "ABD",
-      "title": "Target, Lowe's ve TJX bilançoları",
-      "importance": 2,
-      "note": "Perakende sektörünün nabzı; piyasa açılmadan önce"
-    },
-    {
       "date": "2026-11-19",
+      "time": "15:00",
       "country": "ABD",
-      "title": "Walmart bilançosu",
-      "importance": 2,
-      "note": "ABD tüketicisinin durumuna dair önemli ipucu"
+      "title": "Walmart 3. çeyrek bilançosu",
+      "importance": 3,
+      "note": "ABD tüketicisinin nabzı"
     },
     {
       "date": "2026-11-19",
       "country": "ABD",
       "title": "Anthropic (ANT) Nasdaq'ta işlem görmeye başlıyor",
       "importance": 3,
-      "note": "Fiyat aralığı 70-78 dolar; rekor büyüklükte halka arz bekleniyor"
+      "note": "Halka arz fiyatı 83 $"
     },
     {
       "date": "2026-11-19",
-      "country": "Çin/ABD",
-      "title": "Alibaba bilançosu",
+      "time": "16:30",
+      "country": "ABD",
+      "title": "Haftalık işsizlik başvuruları ve Philadelphia Fed imalat endeksi",
       "importance": 2,
-      "note": "Çin teknoloji hisseleri ve yapay zekâ harcamaları için önemli"
+      "note": "İşgücü piyasası ve imalatın nabzı"
+    },
+    {
+      "date": "2026-11-19",
+      "country": "Çin",
+      "title": "Alibaba çeyrek bilançosu",
+      "importance": 2,
+      "note": "Aynı gün NetEase ve Intuit de açıklıyor"
+    },
+    {
+      "date": "2026-11-19",
+      "country": "Çin",
+      "title": "APEC Şenzen: Xi-Trump-Putin zirvesi",
+      "importance": 2,
+      "note": "Ticaret ve jeopolitik açısından izleniyor"
+    },
+    {
+      "date": "2026-11-20",
+      "time": "10:00",
+      "country": "TR",
+      "title": "Tüketici güveni, kapasite kullanım oranı ve reel kesim güveni (Kasım)",
+      "importance": 2,
+      "note": "Türkiye ekonomisinin anlık nabzı"
     },
     {
       "date": "2026-11-20",
@@ -382,21 +375,226 @@
     },
     {
       "date": "2026-11-23",
+      "country": "AB",
+      "title": "Euro Bölgesi ve İngiltere öncü PMI (Kasım)",
+      "importance": 2,
+      "note": "Avrupa ekonomisinin anlık durumu"
+    },
+    {
+      "date": "2026-11-23",
       "country": "ABD",
-      "title": "Zoom bilançosu",
-      "importance": 1,
-      "note": "ABD'de kapanış sonrası"
+      "title": "S&P Global öncü imalat ve hizmet PMI; Zoom bilançosu",
+      "importance": 2,
+      "note": "ABD ekonomisinin anlık durumu"
     },
     {
       "date": "2026-11-24",
-      "country": "Çin/ABD",
-      "title": "NIO ve Bilibili bilançoları",
-      "importance": 1,
-      "note": "Çinli elektrikli araç ve internet şirketleri"
+      "country": "ABD",
+      "title": "Conference Board tüketici güveni; Dell, Best Buy, Workday bilançoları",
+      "importance": 2,
+      "note": "Tüketici ve teknoloji tarafı"
+    },
+    {
+      "date": "2026-11-25",
+      "time": "16:30",
+      "country": "ABD",
+      "title": "PCE enflasyonu (Ekim) ve 3. çeyrek GSYH 2. tahmin",
+      "importance": 3,
+      "note": "Fed'in en çok baktığı enflasyon ölçüsü; Aralık faiz kararı için kritik"
+    },
+    {
+      "date": "2026-11-25",
+      "country": "ABD",
+      "title": "Fed Bej Kitap",
+      "importance": 2,
+      "note": "Bölgelerden ekonomi raporu"
+    },
+    {
+      "date": "2026-11-26",
+      "country": "ABD",
+      "title": "Şükran Günü: ABD borsaları kapalı",
+      "importance": 2,
+      "note": "27 Kasım'da yarım gün"
     }
   ],
   "history": {
     "THYAO": [
+      [
+        "2026-08-14",
+        305.25
+      ],
+      [
+        "2026-08-17",
+        301.0
+      ],
+      [
+        "2026-08-18",
+        300.5
+      ],
+      [
+        "2026-08-19",
+        301.25
+      ],
+      [
+        "2026-08-20",
+        301.25
+      ],
+      [
+        "2026-08-21",
+        301.0
+      ],
+      [
+        "2026-08-24",
+        300.5
+      ],
+      [
+        "2026-08-25",
+        302.5
+      ],
+      [
+        "2026-08-26",
+        308.5
+      ],
+      [
+        "2026-08-27",
+        307.25
+      ],
+      [
+        "2026-08-28",
+        307.5
+      ],
+      [
+        "2026-08-31",
+        302.25
+      ],
+      [
+        "2026-09-01",
+        301.5
+      ],
+      [
+        "2026-09-02",
+        291.5
+      ],
+      [
+        "2026-09-03",
+        291.5
+      ],
+      [
+        "2026-09-04",
+        296.0
+      ],
+      [
+        "2026-09-07",
+        296.75
+      ],
+      [
+        "2026-09-08",
+        305.0
+      ],
+      [
+        "2026-09-09",
+        301.0
+      ],
+      [
+        "2026-09-10",
+        299.25
+      ],
+      [
+        "2026-09-11",
+        300.25
+      ],
+      [
+        "2026-09-14",
+        295.5
+      ],
+      [
+        "2026-09-15",
+        285.25
+      ],
+      [
+        "2026-09-16",
+        273.0
+      ],
+      [
+        "2026-09-17",
+        289.25
+      ],
+      [
+        "2026-09-18",
+        285.5
+      ],
+      [
+        "2026-09-21",
+        293.5
+      ],
+      [
+        "2026-09-22",
+        298.0
+      ],
+      [
+        "2026-09-23",
+        298.5
+      ],
+      [
+        "2026-09-24",
+        288.5
+      ],
+      [
+        "2026-09-25",
+        290.75
+      ],
+      [
+        "2026-09-28",
+        287.0
+      ],
+      [
+        "2026-09-29",
+        291.5
+      ],
+      [
+        "2026-09-30",
+        283.25
+      ],
+      [
+        "2026-10-01",
+        286.5
+      ],
+      [
+        "2026-10-02",
+        292.0
+      ],
+      [
+        "2026-10-05",
+        292.25
+      ],
+      [
+        "2026-10-06",
+        290.5
+      ],
+      [
+        "2026-10-07",
+        286.25
+      ],
+      [
+        "2026-10-08",
+        284.25
+      ],
+      [
+        "2026-10-09",
+        287.5
+      ],
+      [
+        "2026-10-12",
+        285.75
+      ],
+      [
+        "2026-10-13",
+        286.25
+      ],
+      [
+        "2026-10-14",
+        279.25
+      ],
       [
         "2026-10-15",
         276.75
@@ -488,9 +686,177 @@
       [
         "2026-11-17",
         322.25
+      ],
+      [
+        "2026-11-18",
+        323.75
       ]
     ],
     "ASELS": [
+      [
+        "2026-08-14",
+        387.5
+      ],
+      [
+        "2026-08-17",
+        389.0
+      ],
+      [
+        "2026-08-18",
+        381.25
+      ],
+      [
+        "2026-08-19",
+        403.0
+      ],
+      [
+        "2026-08-20",
+        402.25
+      ],
+      [
+        "2026-08-21",
+        403.25
+      ],
+      [
+        "2026-08-24",
+        399.75
+      ],
+      [
+        "2026-08-25",
+        403.75
+      ],
+      [
+        "2026-08-26",
+        398.25
+      ],
+      [
+        "2026-08-27",
+        403.75
+      ],
+      [
+        "2026-08-28",
+        404.0
+      ],
+      [
+        "2026-08-31",
+        386.25
+      ],
+      [
+        "2026-09-01",
+        384.5
+      ],
+      [
+        "2026-09-02",
+        380.75
+      ],
+      [
+        "2026-09-03",
+        380.25
+      ],
+      [
+        "2026-09-04",
+        388.25
+      ],
+      [
+        "2026-09-07",
+        392.5
+      ],
+      [
+        "2026-09-08",
+        390.0
+      ],
+      [
+        "2026-09-09",
+        402.25
+      ],
+      [
+        "2026-09-10",
+        398.5
+      ],
+      [
+        "2026-09-11",
+        393.75
+      ],
+      [
+        "2026-09-14",
+        372.5
+      ],
+      [
+        "2026-09-15",
+        377.0
+      ],
+      [
+        "2026-09-16",
+        360.0
+      ],
+      [
+        "2026-09-17",
+        379.75
+      ],
+      [
+        "2026-09-18",
+        372.75
+      ],
+      [
+        "2026-09-21",
+        378.0
+      ],
+      [
+        "2026-09-22",
+        374.5
+      ],
+      [
+        "2026-09-23",
+        381.5
+      ],
+      [
+        "2026-09-24",
+        367.75
+      ],
+      [
+        "2026-09-25",
+        372.25
+      ],
+      [
+        "2026-09-28",
+        367.25
+      ],
+      [
+        "2026-09-29",
+        338.5
+      ],
+      [
+        "2026-09-30",
+        336.5
+      ],
+      [
+        "2026-10-01",
+        370.0
+      ],
+      [
+        "2026-10-02",
+        362.75
+      ],
+      [
+        "2026-10-05",
+        371.5
+      ],
+      [
+        "2026-10-06",
+        376.0
+      ],
+      [
+        "2026-10-07",
+        348.75
+      ],
+      [
+        "2026-10-08",
+        348.75
+      ],
+      [
+        "2026-10-09",
+        351.25
+      ],
       [
         "2026-10-12",
         341.75
@@ -586,6 +952,10 @@
       [
         "2026-11-17",
         341.5
+      ],
+      [
+        "2026-11-18",
+        343.75
       ]
     ],
     "BIMAS": [
@@ -676,6 +1046,10 @@
       [
         "2026-11-17",
         393.25
+      ],
+      [
+        "2026-11-18",
+        389.75
       ]
     ],
     "TUPRS": [
@@ -834,12 +1208,200 @@
       [
         "2026-11-17",
         349.5
+      ],
+      [
+        "2026-11-18",
+        345.75
       ]
     ],
     "XU100": [
       [
+        "2026-09-07",
+        14151.59
+      ],
+      [
+        "2026-09-08",
+        14405.25
+      ],
+      [
+        "2026-09-09",
+        14505.48
+      ],
+      [
+        "2026-09-10",
+        14393.85
+      ],
+      [
+        "2026-09-11",
+        14467.25
+      ],
+      [
+        "2026-09-14",
+        14235.83
+      ],
+      [
+        "2026-09-15",
+        13892.3
+      ],
+      [
+        "2026-09-16",
+        13122.58
+      ],
+      [
+        "2026-09-17",
+        13509.76
+      ],
+      [
+        "2026-09-18",
+        13284.42
+      ],
+      [
+        "2026-09-21",
+        13337.69
+      ],
+      [
+        "2026-09-22",
+        13198.84
+      ],
+      [
+        "2026-09-23",
+        13251.85
+      ],
+      [
+        "2026-09-24",
+        12888.33
+      ],
+      [
+        "2026-09-25",
+        12899.35
+      ],
+      [
+        "2026-09-28",
+        12592.76
+      ],
+      [
+        "2026-09-29",
+        12290.58
+      ],
+      [
+        "2026-09-30",
+        11947.18
+      ],
+      [
+        "2026-10-01",
+        12249.04
+      ],
+      [
+        "2026-10-02",
+        12270.18
+      ],
+      [
+        "2026-10-05",
+        12443.92
+      ],
+      [
+        "2026-10-06",
+        12374.26
+      ],
+      [
+        "2026-10-07",
+        12122.94
+      ],
+      [
+        "2026-10-08",
+        12213.58
+      ],
+      [
+        "2026-10-09",
+        12265.98
+      ],
+      [
+        "2026-10-12",
+        12150.67
+      ],
+      [
+        "2026-10-13",
+        12250.68
+      ],
+      [
+        "2026-10-14",
+        12118.29
+      ],
+      [
+        "2026-10-15",
+        12070.17
+      ],
+      [
+        "2026-10-16",
+        11721.72
+      ],
+      [
+        "2026-10-19",
+        11430.14
+      ],
+      [
+        "2026-10-20",
+        11797.7
+      ],
+      [
+        "2026-10-21",
+        11577.12
+      ],
+      [
+        "2026-10-22",
+        11220.37
+      ],
+      [
+        "2026-10-23",
+        11116.99
+      ],
+      [
+        "2026-10-26",
+        11151.96
+      ],
+      [
+        "2026-10-27",
+        11151.03
+      ],
+      [
+        "2026-10-28",
+        11165.44
+      ],
+      [
+        "2026-10-30",
+        10759.56
+      ],
+      [
+        "2026-11-02",
+        10961.67
+      ],
+      [
+        "2026-11-03",
+        11023.55
+      ],
+      [
+        "2026-11-04",
+        11478.13
+      ],
+      [
+        "2026-11-05",
+        11333.27
+      ],
+      [
         "2026-11-06",
         11482.6
+      ],
+      [
+        "2026-11-09",
+        11712.67
+      ],
+      [
+        "2026-11-10",
+        11661.86
+      ],
+      [
+        "2026-11-11",
+        11666.42
       ],
       [
         "2026-11-12",
@@ -856,6 +1418,10 @@
       [
         "2026-11-17",
         11661.0
+      ],
+      [
+        "2026-11-18",
+        11477.41
       ]
     ],
     "AKBNK": [
@@ -946,6 +1512,10 @@
       [
         "2026-11-17",
         69.05
+      ],
+      [
+        "2026-11-18",
+        67.1
       ]
     ],
     "ALARK": [
@@ -1028,6 +1598,10 @@
       [
         "2026-11-17",
         105.8
+      ],
+      [
+        "2026-11-18",
+        102.4
       ]
     ],
     "ARCLK": [
@@ -1134,6 +1708,10 @@
       [
         "2026-11-17",
         67.2
+      ],
+      [
+        "2026-11-18",
+        66.15
       ]
     ],
     "ASTOR": [
@@ -1220,6 +1798,10 @@
       [
         "2026-11-17",
         160.0
+      ],
+      [
+        "2026-11-18",
+        152.1
       ]
     ],
     "DOAS": [
@@ -1406,6 +1988,10 @@
       [
         "2026-11-17",
         117.7
+      ],
+      [
+        "2026-11-18",
+        115.3
       ]
     ],
     "EKGYO": [
@@ -1512,9 +2098,265 @@
       [
         "2026-11-17",
         18.35
+      ],
+      [
+        "2026-11-18",
+        17.87
       ]
     ],
     "ENKAI": [
+      [
+        "2026-07-28",
+        88.75
+      ],
+      [
+        "2026-07-29",
+        87.55
+      ],
+      [
+        "2026-07-30",
+        85.25
+      ],
+      [
+        "2026-07-31",
+        87.6
+      ],
+      [
+        "2026-08-03",
+        87.05
+      ],
+      [
+        "2026-08-04",
+        85.85
+      ],
+      [
+        "2026-08-05",
+        87.1
+      ],
+      [
+        "2026-08-06",
+        85.85
+      ],
+      [
+        "2026-08-07",
+        86.35
+      ],
+      [
+        "2026-08-10",
+        86.2
+      ],
+      [
+        "2026-08-11",
+        85.9
+      ],
+      [
+        "2026-08-12",
+        86.65
+      ],
+      [
+        "2026-08-13",
+        85.85
+      ],
+      [
+        "2026-08-14",
+        87.65
+      ],
+      [
+        "2026-08-17",
+        80.15
+      ],
+      [
+        "2026-08-18",
+        81.0
+      ],
+      [
+        "2026-08-19",
+        83.1
+      ],
+      [
+        "2026-08-20",
+        82.85
+      ],
+      [
+        "2026-08-21",
+        83.25
+      ],
+      [
+        "2026-08-24",
+        82.95
+      ],
+      [
+        "2026-08-25",
+        83.95
+      ],
+      [
+        "2026-08-26",
+        87.75
+      ],
+      [
+        "2026-08-27",
+        87.45
+      ],
+      [
+        "2026-08-28",
+        89.0
+      ],
+      [
+        "2026-08-31",
+        87.4
+      ],
+      [
+        "2026-09-01",
+        88.9
+      ],
+      [
+        "2026-09-02",
+        86.8
+      ],
+      [
+        "2026-09-03",
+        86.9
+      ],
+      [
+        "2026-09-04",
+        87.25
+      ],
+      [
+        "2026-09-07",
+        89.0
+      ],
+      [
+        "2026-09-08",
+        89.65
+      ],
+      [
+        "2026-09-09",
+        90.35
+      ],
+      [
+        "2026-09-10",
+        89.75
+      ],
+      [
+        "2026-09-11",
+        91.25
+      ],
+      [
+        "2026-09-14",
+        89.3
+      ],
+      [
+        "2026-09-15",
+        85.8
+      ],
+      [
+        "2026-09-16",
+        81.95
+      ],
+      [
+        "2026-09-17",
+        85.75
+      ],
+      [
+        "2026-09-18",
+        85.35
+      ],
+      [
+        "2026-09-21",
+        86.3
+      ],
+      [
+        "2026-09-22",
+        86.75
+      ],
+      [
+        "2026-09-23",
+        88.45
+      ],
+      [
+        "2026-09-24",
+        86.4
+      ],
+      [
+        "2026-09-25",
+        86.45
+      ],
+      [
+        "2026-09-28",
+        85.4
+      ],
+      [
+        "2026-09-29",
+        84.75
+      ],
+      [
+        "2026-09-30",
+        82.45
+      ],
+      [
+        "2026-10-01",
+        82.65
+      ],
+      [
+        "2026-10-02",
+        84.0
+      ],
+      [
+        "2026-10-05",
+        84.85
+      ],
+      [
+        "2026-10-06",
+        82.65
+      ],
+      [
+        "2026-10-07",
+        80.0
+      ],
+      [
+        "2026-10-08",
+        81.6
+      ],
+      [
+        "2026-10-09",
+        83.5
+      ],
+      [
+        "2026-10-12",
+        80.95
+      ],
+      [
+        "2026-10-13",
+        80.65
+      ],
+      [
+        "2026-10-14",
+        79.75
+      ],
+      [
+        "2026-10-15",
+        77.8
+      ],
+      [
+        "2026-10-16",
+        76.2
+      ],
+      [
+        "2026-10-19",
+        75.65
+      ],
+      [
+        "2026-10-20",
+        77.9
+      ],
+      [
+        "2026-10-21",
+        75.8
+      ],
+      [
+        "2026-10-22",
+        73.5
+      ],
       [
         "2026-11-13",
         83.4
@@ -1526,6 +2368,10 @@
       [
         "2026-11-17",
         81.9
+      ],
+      [
+        "2026-11-18",
+        80.0
       ]
     ],
     "EREGL": [
@@ -1624,6 +2470,10 @@
       [
         "2026-11-17",
         31.86
+      ],
+      [
+        "2026-11-18",
+        31.2
       ]
     ],
     "FROTO": [
@@ -1730,9 +2580,189 @@
       [
         "2026-11-17",
         71.7
+      ],
+      [
+        "2026-11-18",
+        72.6
       ]
     ],
     "GARAN": [
+      [
+        "2026-08-14",
+        131.0
+      ],
+      [
+        "2026-08-17",
+        129.0
+      ],
+      [
+        "2026-08-18",
+        129.3
+      ],
+      [
+        "2026-08-19",
+        132.0
+      ],
+      [
+        "2026-08-20",
+        129.3
+      ],
+      [
+        "2026-08-21",
+        129.9
+      ],
+      [
+        "2026-08-24",
+        131.6
+      ],
+      [
+        "2026-08-25",
+        132.6
+      ],
+      [
+        "2026-08-26",
+        133.3
+      ],
+      [
+        "2026-08-27",
+        133.0
+      ],
+      [
+        "2026-08-28",
+        133.8
+      ],
+      [
+        "2026-08-31",
+        130.9
+      ],
+      [
+        "2026-09-01",
+        132.9
+      ],
+      [
+        "2026-09-02",
+        132.0
+      ],
+      [
+        "2026-09-03",
+        131.4
+      ],
+      [
+        "2026-09-04",
+        131.4
+      ],
+      [
+        "2026-09-07",
+        133.5
+      ],
+      [
+        "2026-09-08",
+        136.0
+      ],
+      [
+        "2026-09-09",
+        134.3
+      ],
+      [
+        "2026-09-10",
+        133.4
+      ],
+      [
+        "2026-09-11",
+        134.2
+      ],
+      [
+        "2026-09-14",
+        133.9
+      ],
+      [
+        "2026-09-15",
+        127.8
+      ],
+      [
+        "2026-09-16",
+        120.9
+      ],
+      [
+        "2026-09-17",
+        132.5
+      ],
+      [
+        "2026-09-18",
+        129.9
+      ],
+      [
+        "2026-09-21",
+        133.1
+      ],
+      [
+        "2026-09-22",
+        133.9
+      ],
+      [
+        "2026-09-23",
+        133.8
+      ],
+      [
+        "2026-09-24",
+        129.4
+      ],
+      [
+        "2026-09-25",
+        129.8
+      ],
+      [
+        "2026-09-28",
+        129.4
+      ],
+      [
+        "2026-09-29",
+        129.1
+      ],
+      [
+        "2026-09-30",
+        122.9
+      ],
+      [
+        "2026-10-01",
+        126.2
+      ],
+      [
+        "2026-10-02",
+        125.9
+      ],
+      [
+        "2026-10-05",
+        130.4
+      ],
+      [
+        "2026-10-06",
+        131.2
+      ],
+      [
+        "2026-10-07",
+        129.9
+      ],
+      [
+        "2026-10-08",
+        128.5
+      ],
+      [
+        "2026-10-09",
+        129.3
+      ],
+      [
+        "2026-10-12",
+        129.8
+      ],
+      [
+        "2026-10-13",
+        131.3
+      ],
+      [
+        "2026-10-14",
+        130.5
+      ],
       [
         "2026-10-19",
         132.5
@@ -1816,6 +2846,10 @@
       [
         "2026-11-17",
         148.7
+      ],
+      [
+        "2026-11-18",
+        145.7
       ]
     ],
     "GUBRF": [
@@ -1902,6 +2936,10 @@
       [
         "2026-11-17",
         282.75
+      ],
+      [
+        "2026-11-18",
+        276.25
       ]
     ],
     "HEKTS": [
@@ -2098,6 +3136,10 @@
       [
         "2026-11-16",
         13.34
+      ],
+      [
+        "2026-11-18",
+        12.64
       ]
     ],
     "KCHOL": [
@@ -2244,6 +3286,10 @@
       [
         "2026-11-17",
         202.0
+      ],
+      [
+        "2026-11-18",
+        195.4
       ]
     ],
     "KRDMD": [
@@ -2346,6 +3392,10 @@
       [
         "2026-11-17",
         38.52
+      ],
+      [
+        "2026-11-18",
+        37.6
       ]
     ],
     "MGROS": [
@@ -2448,6 +3498,10 @@
       [
         "2026-11-17",
         466.75
+      ],
+      [
+        "2026-11-18",
+        455.0
       ]
     ],
     "PETKM": [
@@ -2574,6 +3628,10 @@
       [
         "2026-11-17",
         16.18
+      ],
+      [
+        "2026-11-18",
+        15.4
       ]
     ],
     "PGSUS": [
@@ -2716,6 +3774,10 @@
       [
         "2026-11-17",
         158.8
+      ],
+      [
+        "2026-11-18",
+        155.0
       ]
     ],
     "SAHOL": [
@@ -2802,6 +3864,10 @@
       [
         "2026-11-17",
         83.0
+      ],
+      [
+        "2026-11-18",
+        80.6
       ]
     ],
     "SASA": [
@@ -2888,6 +3954,10 @@
       [
         "2026-11-16",
         1.59
+      ],
+      [
+        "2026-11-18",
+        1.5
       ]
     ],
     "SISE": [
@@ -2998,6 +4068,10 @@
       [
         "2026-11-17",
         34.3
+      ],
+      [
+        "2026-11-18",
+        33.58
       ]
     ],
     "TCELL": [
@@ -3156,6 +4230,10 @@
       [
         "2026-11-17",
         96.3
+      ],
+      [
+        "2026-11-18",
+        94.7
       ]
     ],
     "TOASO": [
@@ -3238,6 +4316,10 @@
       [
         "2026-11-17",
         245.4
+      ],
+      [
+        "2026-11-18",
+        241.7
       ]
     ],
     "TTKOM": [
@@ -3336,6 +4418,10 @@
       [
         "2026-11-16",
         51.2
+      ],
+      [
+        "2026-11-18",
+        49.3
       ]
     ],
     "YKBNK": [
@@ -3418,6 +4504,10 @@
       [
         "2026-11-17",
         37.36
+      ],
+      [
+        "2026-11-18",
+        36.52
       ]
     ]
   },
@@ -3637,6 +4727,98 @@
       "mcap": 240200000000,
       "sector": "Otomotiv",
       "asOf": "20 Eki 2026"
+    },
+    "MGROS": {
+      "pe": 15.09,
+      "pb": 1.02,
+      "netMargin": 1.5,
+      "roe": 7.36,
+      "de": 0.42,
+      "revGrowth": -3.8,
+      "div": 1.99,
+      "mcap": 95690000000,
+      "sector": "Perakende",
+      "asOf": "25 Eyl 2026"
+    },
+    "PETKM": {
+      "pb": 0.65,
+      "netMargin": -1.41,
+      "roe": -2.07,
+      "de": 0.75,
+      "revGrowth": 4.3,
+      "div": 1.07,
+      "mcap": 49570000000,
+      "sector": "Kimya / Petrokimya",
+      "asOf": "20 Eki 2026"
+    },
+    "PGSUS": {
+      "pb": 0.63,
+      "netMargin": -0.76,
+      "roe": -1.24,
+      "de": 2.26,
+      "revGrowth": 31.3,
+      "mcap": 65800000000,
+      "sector": "Havacılık / Ulaştırma",
+      "asOf": "20 Eki 2026"
+    },
+    "SISE": {
+      "pe": 10.81,
+      "pb": 0.4,
+      "netMargin": 4.67,
+      "roe": 3.21,
+      "de": 0.57,
+      "revGrowth": -15.0,
+      "div": 1.65,
+      "mcap": 121360000000,
+      "sector": "Cam / Sanayi",
+      "asOf": "20 Eyl 2026"
+    },
+    "TCELL": {
+      "pe": 10.98,
+      "pb": 0.64,
+      "netMargin": 7.2,
+      "roe": 6.75,
+      "de": 0.69,
+      "revGrowth": -11.5,
+      "div": 4.02,
+      "mcap": 196750000000,
+      "sector": "Telekomünikasyon",
+      "asOf": "26 Eki 2026"
+    },
+    "TOASO": {
+      "pe": 9.75,
+      "pb": 1.86,
+      "netMargin": 3.03,
+      "roe": 21.98,
+      "de": 1.07,
+      "revGrowth": 97.9,
+      "div": 8.18,
+      "mcap": 122200000000,
+      "sector": "Otomotiv",
+      "asOf": "18 Eki 2026"
+    },
+    "TTKOM": {
+      "pe": 6.18,
+      "pb": 0.62,
+      "netMargin": 10.44,
+      "roe": 11.92,
+      "de": 0.55,
+      "revGrowth": 1.5,
+      "div": 0,
+      "mcap": 163800000000,
+      "sector": "Telekomünikasyon",
+      "asOf": "26 Eki 2026"
+    },
+    "YKBNK": {
+      "pe": 5.31,
+      "pb": 1.03,
+      "netMargin": 24.92,
+      "roe": 21.78,
+      "revGrowth": 58.6,
+      "div": 3.48,
+      "mcap": 294130000000,
+      "sector": "Bankacılık",
+      "asOf": "2 Eki 2026"
     }
   }
 }
